@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-activities",
+          title: "Activities",
+          description: "A collection of photos from our activities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/activities/";
+          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
@@ -414,7 +421,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "activities-2016-kcc",
+          title: '2016 KCC',
+          description: "Photos from 2016 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2016-kcc/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
