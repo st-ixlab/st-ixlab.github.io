@@ -1,0 +1,32 @@
+.teaching-page {
+  .teaching-semester {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h4 {
+    color: #555;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #444;
+  }
+}
