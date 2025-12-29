@@ -431,11 +431,6 @@ ninja.data = [{
           description: "Photos from 2016 Winter Conference Attendance",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2016-winter-conference/";
-            },},{id: "activities-2016-동계학회-참석",
-          title: '2016 동계학회 참석',
-          description: "Photos from 2016 동계학회 참석",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2016/";
             },},{id: "activities-2017-edb-학회-참석",
           title: '2017 EDB 학회 참석',
           description: "Photos from 2017 EDB 학회 참석",
@@ -611,21 +606,6 @@ ninja.data = [{
           description: "Photos from 2025 IUI",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-iui/";
-            },},{id: "activities-2016-kcc",
-          title: '2016 KCC',
-          description: "Photos from 2016 KCC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/album-233/";
-            },},{id: "activities-2017-nvidia-deep-learning-day",
-          title: '2017 Nvidia Deep Learning Day',
-          description: "Photos from 2017 Nvidia Deep Learning Day",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/album-269/";
-            },},{id: "activities-2017-iot-innovation-challenge",
-          title: '2017 IoT Innovation Challenge',
-          description: "Photos from 2017 IoT Innovation Challenge",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/album-345/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
