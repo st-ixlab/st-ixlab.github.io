@@ -6,6 +6,30 @@
     margin-bottom: 2rem;
   }
 
+  .project-section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+
+  .project-year-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #444;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #eee;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
   h2 {
     font-size: 1.5rem;
     color: #333;
@@ -29,6 +53,41 @@
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
     color: #444;
+  }
+
+  .project-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .project-name-en {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .project-name-ko {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .project-meta {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 0.5rem;
+    line-height: 1.6;
   }
 }
 

@@ -1,0 +1,223 @@
+.members-page {
+  margin-top: 2rem;
+
+  .members-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-divider-color);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .members-subsection-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--global-text-color);
+  }
+
+  .members-section {
+    margin-bottom: 3rem;
+  }
+
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .member-image {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      border-radius: 8px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .member-info {
+      width: 100%;
+
+      .member-name {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--global-text-color);
+      }
+
+      .member-title {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--global-theme-color);
+        margin-bottom: 0.5rem;
+      }
+
+      .member-status {
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: var(--global-text-color);
+        margin-bottom: 0.25rem;
+      }
+
+      .member-detail {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.25rem;
+        line-height: 1.5;
+      }
+
+      .member-contact {
+        font-size: 0.85rem;
+        color: var(--global-text-color-light);
+        margin-top: 0.5rem;
+
+        a {
+          color: var(--global-theme-color);
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .member-note {
+        font-size: 0.85rem;
+        color: var(--global-text-color-light);
+        font-style: italic;
+        margin-top: 0.5rem;
+      }
+
+      .member-affiliation {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .professor-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .member-image {
+      width: 200px;
+      height: 250px;
+      margin-right: 2rem;
+      flex-shrink: 0;
+
+      @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .member-info {
+      flex: 1;
+
+      .member-name {
+        font-size: 1.8rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .member-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      .member-contact {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .member-education {
+        margin-top: 1.5rem;
+
+        h4 {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-bottom: 0.75rem;
+          color: var(--global-text-color);
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            font-size: 0.95rem;
+            color: var(--global-text-color-light);
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+
+            &:before {
+              content: "•";
+              position: absolute;
+              left: 0;
+              color: var(--global-theme-color);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .members-list {
+    margin-bottom: 3rem;
+
+    .alumni-item {
+      font-size: 0.95rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+
+      strong {
+        color: var(--global-text-color);
+        font-weight: 600;
+      }
+    }
+  }
+}
+

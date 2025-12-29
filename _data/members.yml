@@ -1,0 +1,158 @@
+professor:
+  - name: Jin-Woo Jeong
+    title: Associate Professor
+    image: prof_pic.jpg
+    email: jinw.jeong@seoultech.ac.kr
+    tel: +82-2-970-6468
+    office: Frontier-Hall 610 (Office), Frontier-Hall 319-2 (Lab.)
+    education:
+      - "Associate Professor, Seoul National University of Science and Technology (2024~Present)"
+      - "Assistant Professor, Seoul National University of Science and Technology (2021~2024)"
+      - "Assistant Professor, Kumoh National Institute of Technology (2016-2021)"
+      - "Senior Researcher, Samsung Electronics (2013-2016)"
+      - "Ph.D, Computer Science and Engineering, Hanyang University (2013)"
+      - "Research Intern, Microsoft Research (2012 Summer)"
+      - "Research Intern, Microsoft Research Asia (2011-2012)"
+
+graduate_students:
+  - name: Jae-Yeop Jeong
+    image: members/jjy.jpg
+    status: "Integrated Ph.D Student"
+    department: "Department of Data Science"
+    research_area: "Human-Computer Interaction, User Behavior Modeling"
+    email: "jaey.jeong@seoultech.ac.kr"
+    start_date: ""
+  - name: Jiyeon Oh
+    image: members/jiyeon_oh.jpg
+    status: "Master Student"
+    department: "Department of Data Science"
+    research_area: "HCI x Generative AI"
+    email: "jiyeon.oh@seoultech.ac.kr"
+    start_date: ""
+  - name: Yewon Min
+    image: members/yewon_min.jpg
+    status: "Master Student"
+    department: "Department of Data Science"
+    research_area: "HCI x VR/MR Communication"
+    email: "yw.min@seoultech.ac.kr"
+    start_date: ""
+  - name: Dae Wook Kim
+    image: members/daewook_kim.jpg
+    status: "Master Student"
+    department: "Department of Data Science"
+    research_area: "HCI x Virtual Exhibition"
+    email: "ksnu3@seoultech.ac.kr"
+    start_date: ""
+  - name: Yujin Jeong
+    image: members/yujin_jeong.png
+    status: "Master Student"
+    department: "Department of Data Science"
+    research_area: "TBD"
+    email: "yujin0331@seoultech.ac.kr"
+    start_date: ""
+
+undergraduate_students:
+  - name: Jiwon Lee
+    image: members/jiwon_lee.jpg
+    division: "Division of ITM"
+    research_area: "TBD"
+    email: ""
+    start_date: ""
+  - name: Jiseop Lee
+    image: members/jiseop_lee.jpg
+    division: "Division of ITM"
+    research_area: "TBD"
+    email: "leejiseop@seoultech.ac.kr "
+    start_date: ""
+  - name: Byeonghwa Yu
+    image: members/byeonghwa_yu.png
+    division: "Division of IISE"
+    research_area: "TBD"
+    email: "gomgom3008@gmail.com"
+    start_date: ""
+
+researchers:
+  - name: Shee-Ihn Kim
+    image: members/sheeihn_kim.jpg
+    status: "Ph.D Student"
+    department: "Department of Industrial Information Systems"
+    research_area: "Character Computing, Affective Computing"
+    email: "sikim@seoultech.ac.kr"
+    note: "Leave of Absence"
+
+alumni_graduates:
+  - name: Ha-Yeong Yoon
+    image: members/hayeong_yoon.jpg
+    degree: "M.S., 2023"
+    department: "Department of Data Science"
+    research_area: "Medical Image Analysis"
+    affiliation: "Oncosoft (Research Engineer)"
+    affiliation_logo: ""
+  - name: Yeong-Gi Hong
+    image: members/yeonggi_hong.jpg
+    degree: "M.S., 2024"
+    department: "Department of Data Science"
+    research_area: "Generative Vision AI"
+    affiliation: ""
+    affiliation_logo: ""
+  - name: Daun Kim
+    image: members/daun_kim.jpg
+    degree: "M.S., 2025"
+    department: "Department of Data Science"
+    research_area: "MR Task Optimization"
+    affiliation: "KISTI (Engineer)"
+    affiliation_logo: ""
+  - name: Lukianova Elizaveta
+    image: members/elizaveta.jpg
+    degree: "M.S., 2025"
+    department: "Department of Data Science"
+    research_area: "MR Visual Understanding"
+    affiliation: "HireDiversity (Research Engineer)"
+    affiliation_logo: ""
+
+alumni_undergraduates:
+  - name: Mihwan Yu
+    division: "Division of ITM, Seoultech, 2022"
+    affiliation: "Now @ LG Electronics as Software Engineer"
+  - name: Sumin Hong
+    division: "Division of ITM, Seoultech, 2021-2022"
+    affiliation: "Now @ University of Notre Dame as Ph.D Student"
+  - name: Sang-Hwa Hong
+    division: "Division of ITM, Seoultech, 2022-2023"
+    affiliation: "Now @ Seoul National University as Ph.D Student"
+  - name: Doyoung Kim
+    division: "Division of IISE, Seoultech, 2022-2023"
+    affiliation: "Now @ Sogang University as Master Student"
+  - name: Namsub Kim
+    division: "Division of ITM, 2021-2023"
+    affiliation: "Now @ Yonsei University as Ph.D Student"
+  - name: Yujin Lee
+    division: "Division of IISE, Seoultech, 2023"
+    affiliation: ""
+  - name: Siheon Kim
+    division: "Division of ITM, Seoultech, 2023"
+    affiliation: "Now @ Samsung Life as Software Engineer"
+  - name: Seonghun Park
+    division: "Division of ITM, Seoultech, 2023"
+    affiliation: ""
+  - name: Jungmin Oh
+    division: "Division of ITM, Seoultech, 2024"
+    affiliation: "Now @ Korea University as Ph.D Student"
+  - name: Sehee Han
+    division: "Division of IISE, Seoultech, 2024"
+    affiliation: ""
+  - name: Jiyeon Hwang
+    division: "Division of IISE, Seoultech, 2024"
+    affiliation: ""
+  - name: Seongmin Hwang
+    division: "Division of ITM, Seoultech, 2024"
+    affiliation: ""
+  - name: Sohyun Jang
+    division: "Division of IISE, Seoultech, 2024"
+    affiliation: ""
+  - name: Euna Byun
+    division: "Division of ITM, Seoultech, 2025"
+    affiliation: ""
+  - name: Hyeok Ju Ko
+    division: "Division of IISE, Seoultech, 2025"
+    affiliation: ""
