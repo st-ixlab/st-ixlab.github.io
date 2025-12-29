@@ -59,6 +59,13 @@ layout: default
   </header>
 
   <article class="post-content">
+    {% if url_beginning == '/activities/' %}
+      <p class="mb-3">
+        <a href="{{ '/activities/' | relative_url }}" class="btn btn-outline-primary btn-sm">
+          <i class="fa-solid fa-arrow-left"></i> Back to Activities
+        </a>
+      </p>
+    {% endif %}
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}

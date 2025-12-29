@@ -8,7 +8,8 @@ description: A collection of photos from our activities.
 ---
 
 <div class="row">
-{% for activity in site.activities %}
+{% assign sorted_activities = site.activities | sort: 'title' | reverse %}
+{% for activity in sorted_activities %}
   <div class="col-md-4 col-sm-6">
     <div class="card mb-3">
       <a href="{{ activity.url | relative_url }}">
