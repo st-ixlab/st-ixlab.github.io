@@ -2,7 +2,7 @@
 layout: post
 title: "2022 Workshop"
 description: "Photos from 2022 Workshop"
-img: /assets/img/activities/2022-workshop/album-2216-1.jpg
+img: /assets/img/activities/2022-workshop/album-2216-6.jpg
 importance: 2
 category: event
 images:

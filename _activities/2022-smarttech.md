@@ -2,7 +2,7 @@
 layout: post
 title: "2022 SmartTech"
 description: "Photos from 2022 SmartTech"
-img: /assets/img/activities/2022-smarttech/album-2196-1.jpg
+img: /assets/img/activities/2022-smarttech/album-2196-6.jpg
 importance: 2
 category: event
 images:

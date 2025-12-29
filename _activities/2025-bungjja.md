@@ -2,7 +2,7 @@
 layout: post
 title: "2025 BungJJA!"
 description: "Photos from 2025 BungJJA!"
-img: /assets/img/activities/2025-bungjja/album-2878-1.jpg
+img: /assets/img/activities/2025-bungjja/album-2878-4.jpg
 importance: 2
 category: event
 images:
@@ -23,7 +23,7 @@ images:
     <img src="/assets/img/activities/2025-bungjja/album-2878-3.jpg" alt="" />
   </a>
   <a href="/assets/img/activities/2025-bungjja/album-2878-4.jpg"
-    target="_blank" data-pswp-width="1500" data-pswp-height="2000">
+    target="_blank" data-pswp-width="2000" data-pswp-height="1500">
     <img src="/assets/img/activities/2025-bungjja/album-2878-4.jpg" alt="" />
   </a>
   <a href="/assets/img/activities/2025-bungjja/album-2878-5.jpg"

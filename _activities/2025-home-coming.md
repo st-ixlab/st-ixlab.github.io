@@ -2,7 +2,7 @@
 layout: post
 title: "2025 Home Coming"
 description: "Photos from 2025 Home Coming"
-img: /assets/img/activities/2025-home-coming/album-2923-1.jpg
+img: /assets/img/activities/2025-home-coming/album-2923-13.jpg
 importance: 2
 category: event
 images:

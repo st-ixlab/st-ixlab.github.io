@@ -5,6 +5,10 @@ layout: default
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
 {% assign url_beginning = page.url | slice: 0, 6 %}
+{% assign is_activity = false %}
+{% if page.url contains '/activities/' %}
+  {% assign is_activity = true %}
+{% endif %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -15,7 +19,14 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <h1 class="post-title" style="margin: 0; flex: 1;">{{ page.title }}</h1>
+      {% if is_activity %}
+        <a href="{{ '/activities/' | relative_url }}" class="btn btn-outline-primary btn-sm" style="margin-left: 1rem;">
+          <i class="fa-solid fa-arrow-left"></i> Back to Activities
+        </a>
+      {% endif %}
+    </div>
     <p class="post-meta">
       Created on {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}
@@ -59,13 +70,6 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% if url_beginning == '/activities/' %}
-      <p class="mb-3">
-        <a href="{{ '/activities/' | relative_url }}" class="btn btn-outline-primary btn-sm">
-          <i class="fa-solid fa-arrow-left"></i> Back to Activities
-        </a>
-      </p>
-    {% endif %}
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}

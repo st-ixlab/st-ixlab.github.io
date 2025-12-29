@@ -2,7 +2,7 @@
 layout: post
 title: "2023 KIT Alumni Meeting"
 description: "Photos from 2023 KIT Alumni Meeting"
-img: /assets/img/activities/2023-kit-alumni-meeting/album-2384-1.jpg
+img: /assets/img/activities/2023-kit-alumni-meeting/album-2384-3.jpg
 importance: 2
 category: event
 images:

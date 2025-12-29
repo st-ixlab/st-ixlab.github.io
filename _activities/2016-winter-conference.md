@@ -2,7 +2,7 @@
 layout: post
 title: "2016 동계학회 참석"
 description: "Photos from 2016 Winter Conference Attendance"
-img: /assets/img/activities/2016-winter-conference/winter-conf-1.jpg
+img: /assets/img/activities/2016-winter-conference/winter-conf-2.jpg
 importance: 2
 category: event
 images:

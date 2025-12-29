@@ -2,7 +2,7 @@
 layout: post
 title: "2019 AI Grand Challenge"
 description: "Photos from 2019 AI Grand Challenge"
-img: /assets/img/activities/2019-ai-grand-challenge/album-543-1.jpg
+img: /assets/img/activities/2019-ai-grand-challenge/20190711_1416071.jpg
 importance: 2
 category: event
 images:
@@ -19,6 +19,10 @@ images:
     <img src="/assets/img/activities/2019-ai-grand-challenge/album-543-2.jpg" alt="" />
   </a>
   <a href="/assets/img/activities/2019-ai-grand-challenge/album-543-3.jpg"
+    target="_blank" data-pswp-width="4032" data-pswp-height="3024">
+    <img src="/assets/img/activities/2019-ai-grand-challenge/album-543-3.jpg" alt="" />
+  </a>
+  <a href="/assets/img/activities/2019-ai-grand-challenge/20190711_1416071.jpg"
     target="_blank" data-pswp-width="4032" data-pswp-height="3024">
     <img src="/assets/img/activities/2019-ai-grand-challenge/album-543-3.jpg" alt="" />
   </a>

@@ -2,7 +2,7 @@
 layout: post
 title: "2024 SIGGRAPH ASIA"
 description: "Photos from 2024 SIGGRAPH ASIA"
-img: /assets/img/activities/2024-siggraph-asia/album-2809-1.jpg
+img: /assets/img/activities/2024-siggraph-asia/album-2809-5.jpg
 importance: 2
 category: event
 images:
