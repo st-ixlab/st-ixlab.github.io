@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2024-10-01-1.jpg
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Designing LLM Response Layouts for XR Workspaces in Vehicles" was accepted to ISMAR 2024 as Poster!
+Our paper "Designing LLM Response Layouts for XR Workspaces in Vehicles" was accepted to ISMAR 2024 as Poster!

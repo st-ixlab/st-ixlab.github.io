@@ -14,4 +14,4 @@ thumbnail: assets/img/news-20230301-1.png
     </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our papers were accepted to the LBW track of 2023 ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)! 1) "Tingle Just for You: A Preliminary Study of AI-based Customized ASMR Content Generation" by Ji Yeon Oh, Daun Kim, Jae-Yeop Jeong, Elizaveta Lukianova, and Jin-Woo Jeong 2) "Spot The Difference: AI, Please Make This for Me!" by Yeong-Gi Hong, Jae-Yeop Jeong, Elizaveta Lukianova, and Jin-Woo Jeong
+Our papers were accepted to the LBW track of 2023 ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)! 1) "Tingle Just for You: A Preliminary Study of AI-based Customized ASMR Content Generation" by Ji Yeon Oh, Daun Kim, Jae-Yeop Jeong, Elizaveta Lukianova, and Jin-Woo Jeong 2) "Spot The Difference: AI, Please Make This for Me!" by Yeong-Gi Hong, Jae-Yeop Jeong, Elizaveta Lukianova, and Jin-Woo Jeong

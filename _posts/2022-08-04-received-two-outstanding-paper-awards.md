@@ -20,4 +20,4 @@ thumbnail: assets/img/news-2022-08-04-1.jpg
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Sumin received an outstanding paper award (undergraduate) from KICS! Paper: Deformable DETR 을 활용한 서적 손상 탐지 기법 구현 JiYeon received an outstanding paper award (undergraduate) from KIISE! Paper: "Vision Transformer와 EasyOCR 기반의 식품 소비기한 추산 시스템" Link: KIISE KCC Award Congratulations to our lab members!
+Sumin received an outstanding paper award (undergraduate) from KICS! Paper: Deformable DETR 을 활용한 서적 손상 탐지 기법 구현 JiYeon received an outstanding paper award (undergraduate) from KIISE! Paper: "Vision Transformer와 EasyOCR 기반의 식품 소비기한 추산 시스템" Link: KIISE KCC Award Congratulations to our lab members!

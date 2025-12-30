@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2025-02-24-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Exploring Emotion Expression Through Silent Speech Interface in Public VR/MR: Effects of Automation on User Experience" by Yewon Min, Jiyeon Oh, Jae-Yeop Jeong was accepted to 2025 CHI LBW tracK!
+Our paper "Exploring Emotion Expression Through Silent Speech Interface in Public VR/MR: Effects of Automation on User Experience" by Yewon Min, Jiyeon Oh, Jae-Yeop Jeong was accepted to 2025 CHI LBW tracK!

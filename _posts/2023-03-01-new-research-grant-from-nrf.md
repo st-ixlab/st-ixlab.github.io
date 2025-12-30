@@ -14,4 +14,4 @@ thumbnail: assets/img/news-20230301-1.png
     </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Period: 23.03 ~ 26.02
+Period: 23.03 ~ 26.02

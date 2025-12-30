@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-05-11-1.jpg
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Classification of Breast Cancer Images with Vision Transformers" has been accepted to Cancers (SCI, IF:6.639) Congratulations to the authors!
+Our paper "Classification of Breast Cancer Images with Vision Transformers" has been accepted to Cancers (SCI, IF:6.639) Congratulations to the authors!

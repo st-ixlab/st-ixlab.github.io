@@ -14,4 +14,4 @@ thumbnail: assets/img/news-20220427-1.jpg
     </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Automatic Cancer Cell Taxonomy using An Ensemble of Deep Neural Networks" has been accepted to Cancers (SCI, IF:6.639) Congratulations to the authors!
+Our paper "Automatic Cancer Cell Taxonomy using An Ensemble of Deep Neural Networks" has been accepted to Cancers (SCI, IF:6.639) Congratulations to the authors!

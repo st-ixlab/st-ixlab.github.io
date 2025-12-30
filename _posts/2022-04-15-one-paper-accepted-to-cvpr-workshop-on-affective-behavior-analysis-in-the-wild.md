@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-04-15-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Classification of Facial Expression In-the-Wild based on Ensemble of Multi-head Cross Attention Networks" by Jae-Yeop Jeong, Yeong-Gi Hong, Daun Kim, and Jin-Woo Jeong was accepted to IEEE/CVF workshop on Affective Behavior Analysis in-the-wild!!
+Our paper "Classification of Facial Expression In-the-Wild based on Ensemble of Multi-head Cross Attention Networks" by Jae-Yeop Jeong, Yeong-Gi Hong, Daun Kim, and Jin-Woo Jeong was accepted to IEEE/CVF workshop on Affective Behavior Analysis in-the-wild!!

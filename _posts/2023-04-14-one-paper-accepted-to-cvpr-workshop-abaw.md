@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2023-04-14-1.jpg
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Dynamic Noise Injection for Facial Expression Recognition In-the-Wild" by SangHwa Hong and Jin-Woo Jeong was accepted to 2023 CVPR Workshop on Affective Behavior Analysis in-the-wild (ABAW).
+Our paper "Dynamic Noise Injection for Facial Expression Recognition In-the-Wild" by SangHwa Hong and Jin-Woo Jeong was accepted to 2023 CVPR Workshop on Affective Behavior Analysis in-the-wild (ABAW).

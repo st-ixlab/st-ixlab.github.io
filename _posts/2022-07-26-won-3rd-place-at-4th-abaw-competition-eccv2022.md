@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-07-26-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications IXLAB team (Jae-Yeop Jeong, Yeong-Gi Hong, JiYeon Oh, Sumin Hong, and Jin-Woo Jeong) won 3rd place at ABAW 2022 competition! (The 4rd workshop and competition on affective behavior analysis in-the-wild) which will be held in conjunction with the European Conference on Computer Vision (ECCV) 2022! Thanks to our team membrers!
+IXLAB team (Jae-Yeop Jeong, Yeong-Gi Hong, JiYeon Oh, Sumin Hong, and Jin-Woo Jeong) won 3rd place at ABAW 2022 competition! (The 4rd workshop and competition on affective behavior analysis in-the-wild) which will be held in conjunction with the European Conference on Computer Vision (ECCV) 2022! Thanks to our team membrers!

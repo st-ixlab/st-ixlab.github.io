@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2024-04-30-1.jpg
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "EchoTap: Non-verbal Sound Interaction with Knock and Tap Gestures" has been accepted to International Journal of Human-Computer Interaction (SCI, IF:4.7 (21.9%)) Congratulations to the authors!
+Our paper "EchoTap: Non-verbal Sound Interaction with Knock and Tap Gestures" has been accepted to International Journal of Human-Computer Interaction (SCI, IF:4.7 (21.9%)) Congratulations to the authors!

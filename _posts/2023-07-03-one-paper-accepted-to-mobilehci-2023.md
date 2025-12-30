@@ -7,4 +7,4 @@ tags: news
 categories: news
 ---
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper was accepted to the LBW track of 2023 ACM International Conference on Mobile Human Computer Interaction (MobileHCI)! Authors: Daun Kim, Ji Yeon Oh, Jae-Yeop Jeong, and Jin-Woo Jeong
+Our paper was accepted to the LBW track of 2023 ACM International Conference on Mobile Human Computer Interaction (MobileHCI)! Authors: Daun Kim, Ji Yeon Oh, Jae-Yeop Jeong, and Jin-Woo Jeong

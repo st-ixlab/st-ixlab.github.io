@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-08-19-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Ensemble of Multi-task Learning Networks for Facial Expression Recognition In-the-Wild with Learning from Synthetic Data" by Jae-Yeop Jeong, Yeong-Gi Hong, Sumin Hong, JiYeon Oh, and Jin-Woo Jeong was accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!!  
+Our paper "Ensemble of Multi-task Learning Networks for Facial Expression Recognition In-the-Wild with Learning from Synthetic Data" by Jae-Yeop Jeong, Yeong-Gi Hong, Sumin Hong, JiYeon Oh, and Jin-Woo Jeong was accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!!  

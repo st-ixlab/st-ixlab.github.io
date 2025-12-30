@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2024-03-02-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our papers, "Effect of Onset Position of Ray Casting in Virtual Reality" by Jae-Yeop Jeong was accepted to the LBW track of 2024 ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)!
+Our papers, "Effect of Onset Position of Ray Casting in Virtual Reality" by Jae-Yeop Jeong was accepted to the LBW track of 2024 ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)!

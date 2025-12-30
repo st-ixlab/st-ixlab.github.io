@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-09-23-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our team received "Outstanding Technology Award" from KIRD Startup Challenge !
+Our team received "Outstanding Technology Award" from KIRD Startup Challenge !

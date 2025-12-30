@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2023-04-03-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Congratulations to our team members!
+Congratulations to our team members!

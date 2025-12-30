@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2022-04-10-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications IXLAB team (Jae-Yeop Jeong, Yeong-Gi Hong, Daun Kim, and Jin-Woo Jeong) won 2nd place at ABAW (The 3rd workshop and competition on affective behavior analysis in-the-wild), will be held in conjunction with the IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2022 competition! Thanks to our team membrers!
+IXLAB team (Jae-Yeop Jeong, Yeong-Gi Hong, Daun Kim, and Jin-Woo Jeong) won 2nd place at ABAW (The 3rd workshop and competition on affective behavior analysis in-the-wild), will be held in conjunction with the IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2022 competition! Thanks to our team membrers!

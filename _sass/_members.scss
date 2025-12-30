@@ -53,8 +53,8 @@
     }
 
     .member-image {
-      width: 150px;
-      height: 150px;
+      width: 180px;
+      height: 230px;
       margin-bottom: 1rem;
       overflow: hidden;
       border-radius: 8px;
@@ -63,6 +63,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: top;
       }
     }
 
@@ -165,8 +166,8 @@
     }
 
     .member-image {
-      width: 200px;
-      height: 250px;
+      width: 240px;
+      height: 300px;
       margin-right: 2rem;
       flex-shrink: 0;
 
@@ -300,9 +301,9 @@
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-

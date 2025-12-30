@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2024-08-02-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Public Speaking Q&A Practice with LLM-Generated Personas in Virtual Reality" was accepted to ISMAR 2024 as Poster!
+Our paper "Public Speaking Q&A Practice with LLM-Generated Personas in Virtual Reality" was accepted to ISMAR 2024 as Poster!

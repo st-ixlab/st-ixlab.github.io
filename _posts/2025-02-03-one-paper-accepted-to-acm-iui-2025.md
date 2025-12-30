@@ -14,4 +14,4 @@ thumbnail: assets/img/news-2025-02-03-1.png
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper “A picture is worth a thousand words? Investigating the Impact of Image Aids in AR on Memory Recall for Everyday Tasks” by Elizaveta Lukianova and Jae-Yeop jeong was accepted to ACM IUI 2025 as Full Paper!
+Our paper “A picture is worth a thousand words? Investigating the Impact of Image Aids in AR on Memory Recall for Everyday Tasks” by Elizaveta Lukianova and Jae-Yeop jeong was accepted to ACM IUI 2025 as Full Paper!

@@ -14,4 +14,4 @@ thumbnail: assets/img/news-20250805-1.png
     </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Silent Yet Expressive: Toward Seamless VR Communication through Emotion-aware Silent Speech Interfaces" by Yewon Min, Jiyeon Oh, Jae-Yeop Jeong was accepted to 2025 UIST Poster tracK!
+Our paper "Silent Yet Expressive: Toward Seamless VR Communication through Emotion-aware Silent Speech Interfaces" by Yewon Min, Jiyeon Oh, Jae-Yeop Jeong was accepted to 2025 UIST Poster tracK!

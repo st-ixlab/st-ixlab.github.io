@@ -13,4 +13,4 @@ categories: news
  </div>
 </div>
 
-SeoulTech IXLAB: AI-Infused Interactive Computing & Applications Our paper "Understanding User Behavior in Window Selection using Dragging for Multiple Targets"  by Jae-Yeop Jeong received "Best Paper Honorable Mention" from CHI 2025!
+Our paper "Understanding User Behavior in Window Selection using Dragging for Multiple Targets"  by Jae-Yeop Jeong received "Best Paper Honorable Mention" from CHI 2025!
