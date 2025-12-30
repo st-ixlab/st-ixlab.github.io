@@ -58,103 +58,323 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-",
         
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.location.href = "/blog/2025/2024-04-30-our-paper-accecpted-to-eait-if-55-69/";
           
         },
-      },{id: "post-a-post-with-images",
+      },{id: "post-one-paper-accepted-to-uist-2025-poster-track",
         
-          title: "a post with images",
+          title: "One paper accepted to UIST 2025 Poster track!",
         
-        description: "this is what included images could look like",
+        description: "One paper accepted to UIST 2025 Poster track!",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/images/";
+            window.location.href = "/blog/2025/one-paper-accepted-to-uist-2025-poster-track/";
+          
+        },
+      },{id: "post-received-best-paper-honorable-mention-for-chi2025-paper",
+        
+          title: "Received Best Paper Honorable Mention for CHI2025 paper!",
+        
+        description: "Received Best Paper Honorable Mention for CHI2025 paper!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/received-best-paper-honorable-mention-for-chi2025-paper/";
+          
+        },
+      },{id: "post-received-best-paper-award-for-iui2025-paper",
+        
+          title: "Received Best Paper Award for IUI2025 paper!",
+        
+        description: "Received Best Paper Award for IUI2025 paper!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/received-best-paper-award-for-iui2025-paper/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-2025-chi-lbw",
+        
+          title: "One paper accepted to 2025 CHI LBW!",
+        
+        description: "One paper accepted to 2025 CHI LBW!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/one-paper-accepted-to-2025-chi-lbw/";
+          
+        },
+      },{id: "post-two-papers-accepted-to-acm-chi-2025",
+        
+          title: "Two papers accepted to ACM CHI 2025!",
+        
+        description: "Two papers accepted to ACM CHI 2025!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/two-papers-accepted-to-acm-chi-2025/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-acm-iui-2025",
+        
+          title: "One paper accepted to ACM IUI 2025!",
+        
+        description: "One paper accepted to ACM IUI 2025!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/one-paper-accepted-to-acm-iui-2025/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-siggraph-asia-2024-as-poster",
+        
+          title: "One paper accepted to SIGGRAPH ASIA 2024 as poster!",
+        
+        description: "One paper accepted to SIGGRAPH ASIA 2024 as poster!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/one-paper-accepted-to-siggraph-asia-2024-as-poster/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-ismar-2024",
+        
+          title: "One paper accepted to ISMAR 2024!",
+        
+        description: "One paper accepted to ISMAR 2024!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/one-paper-accepted-to-ismar-2024/";
+          
+        },
+      },{id: "post-our-paper-accepted-to-ijhci-if-4-7-21-9",
+        
+          title: "Our paper accepted to IJHCI! (IF:4.7, 21.9%)",
+        
+        description: "Our paper accepted to IJHCI! (IF:4.7, 21.9%)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/our-paper-accepted-to-ijhci-if47-219/";
+          
+        },
+      },{id: "post-new-research-project-funded-by-wiset",
+        
+          title: "New research project funded by WISET!",
+        
+        description: "New research project funded by WISET!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/new-research-project-funded-by-wiset/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-chi-2024-lbw",
+        
+          title: "One paper accepted to CHI 2024 LBW!",
+        
+        description: "One paper accepted to CHI 2024 LBW!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/one-paper-accepted-to-chi-2024-lbw/";
+          
+        },
+      },{id: "post-received-two-outstanding-papers-from-kcc-2023",
+        
+          title: "Received two outstanding papers from KCC 2023!",
+        
+        description: "Received two outstanding papers from KCC 2023!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/received-two-outstanding-papers-from-kcc-2023/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-mobilehci-2023",
+        
+          title: "One paper accepted to MobileHCI 2023!",
+        
+        description: "One paper accepted to MobileHCI 2023!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/one-paper-accepted-to-mobilehci-2023/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-cvpr-workshop-abaw",
+        
+          title: "One paper accepted to CVPR workshop! (ABAW)",
+        
+        description: "One paper accepted to CVPR workshop! (ABAW)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/one-paper-accepted-to-cvpr-workshop-abaw/";
+          
+        },
+      },{id: "post-new-research-project-funded-by-wiset",
+        
+          title: "New research project funded by WISET",
+        
+        description: "New research project funded by WISET",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/new-research-project-funded-by-wiset/";
+          
+        },
+      },{id: "post-two-papers-accepted-to-2023-acm-chi-as-lbw",
+        
+          title: "Two papers accepted to 2023 ACM CHI as LBW!",
+        
+        description: "Two papers accepted to 2023 ACM CHI as LBW!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/two-papers-accepted-to-2023-acm-chi-as-lbw/";
+          
+        },
+      },{id: "post-new-research-grant-from-nrf",
+        
+          title: "New research grant from NRF!",
+        
+        description: "New research grant from NRF!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/new-research-grant-from-nrf/";
+          
+        },
+      },{id: "post-received-39-outstanding-technology-award-39-from-kird-competition",
+        
+          title: "Received &#39;Outstanding Technology Award&#39; from KIRD competition!",
+        
+        description: "Received &#39;Outstanding Technology Award&#39; from KIRD competition!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/received-outstanding-technology-award-from-kird-competition/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-eccv-workshop-on-affective-behavior-analysis-in-the-wild",
+        
+          title: "One paper accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!",
+        
+        description: "One paper accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/one-paper-accepted-to-eccv-workshop-on-affective-behavior-analysis-in-the-wild/";
+          
+        },
+      },{id: "post-received-two-outstanding-paper-awards",
+        
+          title: "Received two outstanding paper awards!",
+        
+        description: "Received two outstanding paper awards!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/received-two-outstanding-paper-awards/";
+          
+        },
+      },{id: "post-won-3rd-place-at-4th-abaw-competition-eccv2022",
+        
+          title: "Won 3rd place at 4th ABAW competition! (ECCV2022)",
+        
+        description: "Won 3rd place at 4th ABAW competition! (ECCV2022)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/won-3rd-place-at-4th-abaw-competition-eccv2022/";
+          
+        },
+      },{id: "post-new-funding-granted-by-kird-real-challenge-2022-project",
+        
+          title: "New funding granted by KIRD Real-Challenge 2022 project!",
+        
+        description: "New funding granted by KIRD Real-Challenge 2022 project!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/new-funding-granted-by-kird-real-challenge-2022-project/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-ieee-embc-2022",
+        
+          title: "One paper accepted to IEEE EMBC 2022",
+        
+        description: "One paper accepted to IEEE EMBC 2022",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/one-paper-accepted-to-ieee-embc-2022/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-cancers-sci-if-6-639",
+        
+          title: "One paper accepted to Cancers (SCI, IF:6.639)",
+        
+        description: "One paper accepted to Cancers (SCI, IF:6.639)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/one-paper-accepted-to-cancers-sci-if6639/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-cvpr-workshop-on-affective-behavior-analysis-in-the-wild",
+        
+          title: "One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!",
+        
+        description: "One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/one-paper-accepted-to-cvpr-workshop-on-affective-behavior-analysis-in-the-wild/";
+          
+        },
+      },{id: "post-won-2nd-place-at-abaw-2022",
+        
+          title: "Won 2nd place at ABAW 2022!",
+        
+        description: "Won 2nd place at ABAW 2022!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/won-2nd-place-at-abaw-2022/";
+          
+        },
+      },{id: "post-new-funding-granted-by-wiset-2022-project",
+        
+          title: "New funding granted by WISET 2022 project",
+        
+        description: "New funding granted by WISET 2022 project",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/new-funding-granted-by-wiset-2022-project/";
+          
+        },
+      },{id: "post-one-paper-accepted-at-acm-etra-workshop-on-eye-tracking-in-learning-and-education",
+        
+          title: "One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education...",
+        
+        description: "One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/one-paper-accepted-at-acm-etra-workshop-on-eye-tra/";
           
         },
       },{id: "activities-2016-kcc",
@@ -438,30 +658,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.alberteinstein.com/", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
