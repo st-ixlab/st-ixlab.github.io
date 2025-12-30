@@ -87,7 +87,7 @@ alumni_graduates:
     department: "Department of Data Science"
     research_area: "Medical Image Analysis"
     affiliation: "Oncosoft (Research Engineer)"
-    affiliation_logo: ""
+    affiliation_logo: "members/oncosoft.jpg"
   - name: Yeong-Gi Hong
     image: members/yeonggi_hong.jpg
     degree: "M.S., 2024"
@@ -101,7 +101,7 @@ alumni_graduates:
     department: "Department of Data Science"
     research_area: "MR Task Optimization"
     affiliation: "KISTI (Engineer)"
-    affiliation_logo: ""
+    affiliation_logo: "members/kisti_logo_footer.png"
   - name: Lukianova Elizaveta
     image: members/elizaveta.jpg
     degree: "M.S., 2025"
@@ -156,3 +156,91 @@ alumni_undergraduates:
   - name: Hyeok Ju Ko
     division: "Division of IISE, Seoultech, 2025"
     affiliation: ""
+
+kit_alumni_graduates:
+  - name: Kwon-Woo Ha
+    image: members/kit_kwonwoo_ha.jpg
+    affiliation: "AinB"
+    affiliation_logo: ""
+  - name: Jung-Hwa Kim
+    image: members/kit_junghwa_kim.jpg
+    affiliation: "Hy"
+    affiliation_logo: ""
+
+kit_alumni_undergraduates:
+  - name: Seung-Min Baek
+    image: members/kit_seungmin_baek.jpg
+    affiliation: "KODIT"
+    affiliation_logo: ""
+  - name: Sang-Wook Han
+    image: members/kit_sangwook_han.jpg
+    affiliation: "GIST Ph.D student"
+    affiliation_logo: ""
+  - name: Jun-Su Kim
+    image: members/kit_junsu_kim.jpg
+    affiliation: "DGB Data System"
+    affiliation_logo: ""
+  - name: Yeon-Ju Jin
+    image: members/kit_yeonju_jin.jpg
+    affiliation: ""
+    affiliation_logo: ""
+  - name: Seung-June Choi
+    image: members/kit_seungjune_choi.jpg
+    affiliation: "ALPHA CIRCLE"
+    affiliation_logo: ""
+  - name: Chae-Eun Hwang
+    image: members/kit_chaeun_hwang.jpg
+    affiliation: "Kepco"
+    affiliation_logo: ""
+  - name: Sung-Hun Lee
+    image: members/kit_sunghun_lee.jpg
+    affiliation: "MJVision Tech"
+    affiliation_logo: ""
+  - name: Hee-Eun Cho
+    image: members/kit_heeeun_cho.jpg
+    affiliation: "Ildong e-commerce"
+    affiliation_logo: ""
+  - name: Sun-Hye Jang
+    image: members/kit_sunhye_jang.jpg
+    affiliation: "National Cancer Center"
+    affiliation_logo: ""
+  - name: Sang-Yeong Jo
+    image: members/kit_sangyeong_jo.jpg
+    affiliation: "Neurophet"
+    affiliation_logo: ""
+  - name: Hyeon-Sik Kim
+    image: members/kit_hyeonsik_kim.jpg
+    affiliation: "SHIN POONG PHARM. CO., LTD."
+    affiliation_logo: ""
+  - name: Gyeong-Eun Lim
+    image: members/kit_gyeongeun_lim.jpg
+    affiliation: "mcloudoc"
+    affiliation_logo: ""
+  - name: Kyu-Bin Ji
+    image: members/kit_kyubin_ji.jpg
+    affiliation: "Bunkerkids"
+    affiliation_logo: ""
+  - name: Hyeon Seo Kwak
+    image: members/kit_hyeonseo_kwak.png
+    affiliation: "KT DS"
+    affiliation_logo: ""
+  - name: Min Young Kim
+    image: members/kit_minyoung_kim.jpg
+    affiliation: ""
+    affiliation_logo: ""
+  - name: JuYeop Kim
+    image: members/kit_juyeop_kim.png
+    affiliation: ""
+    affiliation_logo: ""
+  - name: Ji-Yong Jeon
+    image: members/kit_jiyong_jeon.jpg
+    affiliation: ""
+    affiliation_logo: ""
+  - name: Eunhye Jeong
+    image: members/kit_eunhye_jeong.jpg
+    affiliation: ""
+    affiliation_logo: ""
+  - name: Sodam Hyeon
+    image: members/kit_sodam_hyeon.jpg
+    affiliation: ""
+    affiliation_logo: ""

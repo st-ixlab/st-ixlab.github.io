@@ -8,7 +8,7 @@ pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
@@ -110,6 +110,14 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
+    {% comment %} Skip posts with empty title or empty content {% endcomment %}
+    {% assign post_title = post.title | strip %}
+    {% if post.external_source == blank %}
+      {% assign post_content_size = post.content | size %}
+    {% else %}
+      {% assign post_content_size = post.feed_content | size %}
+    {% endif %}
+    {% if post_title != blank and post_content_size > 10 %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -185,6 +193,7 @@ pagination:
 {% endif %}
     </li>
 
+    {% endif %}
     {% endfor %}
 
   </ul>
