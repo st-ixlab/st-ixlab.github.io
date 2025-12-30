@@ -66,7 +66,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2024-04-30-our-paper-accecpted-to-eait-if-55-69/";
+            window.location.href = "/blog/2025/2024-04-30-our-paper-accepted-to-eait-if-55-69/";
           
         },
       },{id: "post-one-paper-accepted-to-uist-2025-poster-track",
