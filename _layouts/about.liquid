@@ -4,7 +4,9 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
+      {% if page.custom_title %}
+        {{ page.custom_title }}
+      {% elsif site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
@@ -55,6 +57,42 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+
+    <!-- Location & Sponsors (Moved below Latest News) -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h3>Location</h3>
+        <p>Frontier Hall 319-2, Seoul National University of Science and Technology</p>
+        <div style="width: 100%; height: 300px; border-radius: 8px; overflow: hidden;">
+            <!-- Embedded Google Map for SeoulTech -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2657.013840759666!2d127.07730825313016!3d37.631808771603176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb712d44f303%3A0xf74585f86bbdbe48!2z7ISc7Jq46rO87ZWZ6riw7Iig64yA7ZWZ6rWQIO2UhOuhoO2LsOyWtOq0gA!5e0!3m2!1sen!2skr!4v1767120781643!5m2!1sen!2skr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Sponsors & Partners</h3>
+        <p class="text-muted">Research collaborators and funding agencies.</p>
+        <div class="row align-items-center text-center">
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/seoultech.png' | relative_url }}" alt="SeoulTech" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/nrf.png' | relative_url }}" alt="NRF" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/lge.png' | relative_url }}" alt="LG Electronics" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/kird.png' | relative_url }}" alt="KIRD" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/wiset.jpeg' | relative_url }}" alt="WISET" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 mb-4">
+                <img src="{{ '/assets/img/partner/tie.png' | relative_url }}" alt="TIE" class="img-fluid" style="max-height: 80px;">
+            </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}

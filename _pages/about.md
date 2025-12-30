@@ -4,16 +4,10 @@ title: Home
 permalink: /
 nav: true
 nav_order: 1
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+custom_title: "<b>Seoultech <span style='color: #ff6464ea;'>IX</span>Lab</b>"
+subtitle: # kept empty to avoid default rendering
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  enabled: false
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -29,8 +23,58 @@ latest_posts:
   limit: 10 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Subtitle and Image Section -->
+<div class="row mb-4">
+  <div class="col-md-6">
+    <p class="lead">
+      The <span style="color: #ff6464ea; font-weight: bold;">Interaction Lab (IXLAB)</span> is a dedicated <span style="color: #ff6464ea; font-weight: bold;">HCI research</span> group focused on redefining the boundaries between humans and technology. We strive to create <span style="color: #ff6464ea; font-weight: bold;">intelligent, context-aware systems</span> that seamlessly integrate into everyday life, leveraging advanced interaction technologies to transform how individuals perceive, interact with, and find meaning in an increasingly blended <span style="color: #ff6464ea; font-weight: bold;">digital-physical world</span>.
+    </p>
+  </div>
+  <div class="col-md-6">
+    <div style="width: 100%; height: 0; padding-bottom: 56.25%; position: relative; overflow: hidden; border-radius: 8px;">
+        <img src="assets/img/lab_intro1.jpg" alt="Seoultech IXLab" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
+  </div>
+</div>
+<hr>
+<!-- Research Pillars Section -->
+<div class="row mt-5">
+  <div class="col-12 mb-4">
+    <h2>Research Pillars</h2>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">Intelligent Interaction</h3>
+        <p class="card-text">Developing context-aware systems that understand and adapt to user behavior in real-time.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">Mixed Reality</h3>
+        <p class="card-text">Bridging the physical and digital worlds through immersive AR/VR experiences.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">Human-AI Collaboration</h3>
+        <p class="card-text">Designing interfaces that facilitate seamless collaboration between humans and artificial intelligence.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title">Social Computing</h3>
+        <p class="card-text">Exploring how technology can enhance social connection and communication.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<hr>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

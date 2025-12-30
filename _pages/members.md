@@ -22,6 +22,9 @@ nav_order: 3
           <div class="member-info">
             <h3 class="member-name">{{ prof.name }}</h3>
             <p class="member-title">{{ prof.title }}</p>
+            {% if prof.department %}
+              <p class="member-detail" style="font-weight: 500; color: var(--global-text-color); margin-bottom: 0.5rem;">{{ prof.department }}</p>
+            {% endif %}
             {% if prof.email %}
               <p class="member-contact">Email: <a href="mailto:{{ prof.email }}">{{ prof.email }}</a></p>
             {% endif %}

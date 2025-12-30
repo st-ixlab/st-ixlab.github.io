@@ -11,6 +11,30 @@ nav_order: 6
 
 <div class="teaching-semester" markdown="1">
 
+## 2026 SPRING
+
+
+#### UNDERGRADUATE
+* [IISE] UX Design
+* [IISE] Web Programming
+
+</div>
+
+<div class="teaching-semester" markdown="1">
+
+## 2025 FALL
+
+#### GRADUATE
+* [DS] Unstructured Data Analysis
+
+#### UNDERGRADUATE
+* [IISE] HCI
+* [ITM] Mobile Programming
+
+</div>
+
+<div class="teaching-semester" markdown="1">
+
 ## 2025 SPRING
 
 #### UNDERGRADUATE

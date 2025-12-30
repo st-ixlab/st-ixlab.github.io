@@ -1,20 +1,26 @@
 .pswp-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust thumbnail size here */
-  gap: 10px; /* Space between thumbnails */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Adjust thumbnail size here */
+  gap: 10px;
+  /* Space between thumbnails */
   margin-top: 20px;
 
-  img {
+  a img {
     width: 100%;
     height: auto;
+    max-height: none;
     display: block;
     cursor: pointer;
-    border-radius: 5px; /* Optional: adds rounded corners to thumbnails */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds subtle shadow */
+    border-radius: 5px;
+    /* Optional: adds rounded corners to thumbnails */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Optional: adds subtle shadow */
     transition: transform 0.2s ease-in-out;
 
     &:hover {
-      transform: scale(1.02); /* Optional: slight zoom effect on hover */
+      transform: scale(1.02);
+      /* Optional: slight zoom effect on hover */
     }
   }
 }

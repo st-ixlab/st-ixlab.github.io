@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Our paper accepted to EAIT! (IF: 5.5, 6.9%)
+title: Our paper accepted to EAIT! (IF:5.5, 6.9%)
 date: 2024-04-30 00:00:00
-description: Our paper accepted to EAIT! (IF: 5.5, 6.9%)
+description: Our paper accepted to EAIT! (IF:5.5, 6.9%)
 tags: news
 categories: news
 thumbnail: assets/img/10639_Cover_153w.jpg

@@ -1,6 +1,7 @@
 professor:
   - name: Jin-Woo Jeong
     title: Associate Professor
+    department: "Department of Data Science/Industrial Engineering"
     image: prof_pic.jpg
     email: jinw.jeong@seoultech.ac.kr
     tel: +82-2-970-6468
@@ -47,7 +48,7 @@ graduate_students:
     image: members/yujin_jeong.png
     status: "Master Student"
     department: "Department of Data Science"
-    research_area: "TBD"
+    research_area: "Huamn-Physical Agent Interaction"
     email: "yujin0331@seoultech.ac.kr"
     start_date: ""
 
@@ -55,7 +56,7 @@ undergraduate_students:
   - name: Jiwon Lee
     image: members/jiwon_lee.jpg
     division: "Division of ITM"
-    research_area: "TBD"
+    research_area: "Human-Agent Iteraction"
     email: ""
     start_date: ""
   - name: Jiseop Lee
@@ -107,8 +108,8 @@ alumni_graduates:
     degree: "M.S., 2025"
     department: "Department of Data Science"
     research_area: "MR Visual Understanding"
-    affiliation: "HireDiversity (Research Engineer)"
-    affiliation_logo: ""
+    affiliation: "MiracleSoft (Research Engineer)"
+    affiliation_logo: "members/miraclesoft.jpg"
 
 alumni_undergraduates:
   - name: Mihwan Yu

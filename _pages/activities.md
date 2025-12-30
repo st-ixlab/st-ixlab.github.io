@@ -4,7 +4,7 @@ title: Activities
 permalink: /activities/
 nav: true
 nav_order: 6
-description: A collection of photos from our activities.
+description: Learn how the crazy members of Interaction Lab play and study!
 ---
 
 <div class="row">
