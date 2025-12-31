@@ -27,7 +27,7 @@ latest_posts:
 <div class="row mb-4">
   <div class="col-md-6">
     <p class="lead">
-      The <span style="color: #ff6464ea; font-weight: bold;">Interaction Lab (IXLAB)</span> is a dedicated <span style="color: #ff6464ea; font-weight: bold;">HCI research</span> group focused on redefining the boundaries between humans and technology. We strive to create <span style="color: #ff6464ea; font-weight: bold;">intelligent, context-aware systems</span> that seamlessly integrate into everyday life, leveraging advanced interaction technologies to transform how individuals perceive, interact with, and find meaning in an increasingly blended <span style="color: #ff6464ea; font-weight: bold;">digital-physical world</span>.
+      The SEOULTECH Interaction Lab (IXLAB) explores the future of human-computer synergy through <span style="color: #ff6464ea; font-weight: bold;">AI-infused interactive computing</span>. We focus on designing intelligent, adaptive systems that understand complex human behaviors and contexts via multimodal sensing. By bridging adaptive intelligence with immersive environments, we strive to create <span style="color: #ff6464ea; font-weight: bold;">purposeful interaction paradigms</span> that empower individuals in an increasingly automated and augmented world.
     </p>
   </div>
   <div class="col-md-6">
@@ -46,7 +46,7 @@ latest_posts:
     <div class="card h-100 border-0 shadow-sm">
       <div class="card-body">
         <h3 class="card-title">Intelligent Interaction</h3>
-        <p class="card-text">Developing context-aware systems that understand and adapt to user behavior in real-time.</p>
+        <p class="card-text">Developing adaptive systems that understand and adapt to user behavior in real-time</p>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@ latest_posts:
     <div class="card h-100 border-0 shadow-sm">
       <div class="card-body">
         <h3 class="card-title">Mixed Reality</h3>
-        <p class="card-text">Bridging the physical and digital worlds through immersive AR/VR experiences.</p>
+        <p class="card-text">Bridging the physical and digital worlds through immersive AR/VR experiences</p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ latest_posts:
     <div class="card h-100 border-0 shadow-sm">
       <div class="card-body">
         <h3 class="card-title">Human-AI Collaboration</h3>
-        <p class="card-text">Designing interfaces that facilitate seamless collaboration between humans and artificial intelligence.</p>
+        <p class="card-text">Designing interfaces that facilitate seamless collaboration between humans and artificial intelligence</p>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ latest_posts:
     <div class="card h-100 border-0 shadow-sm">
       <div class="card-body">
         <h3 class="card-title">Social Computing</h3>
-        <p class="card-text">Exploring how technology can enhance social connection and communication.</p>
+        <p class="card-text">Exploring how technology can enhance social connection and communication</p>
       </div>
     </div>
   </div>
