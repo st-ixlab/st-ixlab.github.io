@@ -60,7 +60,7 @@ ninja.data = [{
           },
         },{id: "post-one-paper-accepted-to-uist-2025-poster-track",
         
-          title: "One paper accepted to UIST 2025 Poster track!",
+          title: "📄 One paper **accepted** to **UIST** 2025 **Poster** track!",
         
         description: "One paper accepted to UIST 2025 Poster track!",
         section: "Posts",
@@ -69,9 +69,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/one-paper-accepted-to-uist-2025-poster-track/";
           
         },
-      },{id: "post-received-best-paper-honorable-mention-for-chi2025-paper",
+      },{id: "post-received-best-paper-honorable-mention-for-chi-2025-paper",
         
-          title: "Received Best Paper Honorable Mention for CHI2025 paper!",
+          title: "🏆 Received **Best Paper** **Honorable Mention** for **CHI**2025 paper!",
         
         description: "Received Best Paper Honorable Mention for CHI2025 paper!",
         section: "Posts",
@@ -80,9 +80,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/received-best-paper-honorable-mention-for-chi2025-paper/";
           
         },
-      },{id: "post-received-best-paper-award-for-iui2025-paper",
+      },{id: "post-received-best-paper-award-for-iui-2025-paper",
         
-          title: "Received Best Paper Award for IUI2025 paper!",
+          title: "🏆 Received **Best Paper** **Award** for **IUI**2025 paper!",
         
         description: "Received Best Paper Award for IUI2025 paper!",
         section: "Posts",
@@ -93,7 +93,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-2025-chi-lbw",
         
-          title: "One paper accepted to 2025 CHI LBW!",
+          title: "📄 One paper **accepted** to 2025 **CHI** **LBW**!",
         
         description: "One paper accepted to 2025 CHI LBW!",
         section: "Posts",
@@ -104,7 +104,7 @@ ninja.data = [{
         },
       },{id: "post-two-papers-accepted-to-acm-chi-2025",
         
-          title: "Two papers accepted to ACM CHI 2025!",
+          title: "📄 Two papers **accepted** to **ACM** **CHI** 2025!",
         
         description: "Two papers accepted to ACM CHI 2025!",
         section: "Posts",
@@ -115,7 +115,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-acm-iui-2025",
         
-          title: "One paper accepted to ACM IUI 2025!",
+          title: "📄 One paper **accepted** to **ACM** **IUI** 2025!",
         
         description: "One paper accepted to ACM IUI 2025!",
         section: "Posts",
@@ -126,7 +126,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-siggraph-asia-2024-as-poster",
         
-          title: "One paper accepted to SIGGRAPH ASIA 2024 as poster!",
+          title: "📄 One paper **accepted** to **SIGGRAPH** ASIA 2024 as **poster**!",
         
         description: "One paper accepted to SIGGRAPH ASIA 2024 as poster!",
         section: "Posts",
@@ -137,7 +137,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-ismar-2024",
         
-          title: "One paper accepted to ISMAR 2024!",
+          title: "📄 One paper **accepted** to **ISMAR** 2024!",
         
         description: "One paper accepted to ISMAR 2024!",
         section: "Posts",
@@ -148,7 +148,7 @@ ninja.data = [{
         },
       },{id: "post-our-paper-accepted-to-ijhci-if-4-7-21-9",
         
-          title: "Our paper accepted to IJHCI! (IF:4.7, 21.9%)",
+          title: "📄 Our paper **accepted** to IJHCI! (IF:4.7, 21.9%)",
         
         description: "Our paper accepted to IJHCI! (IF:4.7, 21.9%)",
         section: "Posts",
@@ -159,7 +159,7 @@ ninja.data = [{
         },
       },{id: "post-our-paper-accepted-to-eait-if-5-5-6-9",
         
-          title: "Our paper accepted to EAIT! (IF:5.5, 6.9%)",
+          title: "📄 Our paper **accepted** to EAIT! (IF:5.5, 6.9%)",
         
         description: "Our paper accepted to EAIT! (IF:5.5, 6.9%)",
         section: "Posts",
@@ -170,7 +170,7 @@ ninja.data = [{
         },
       },{id: "post-new-research-project-funded-by-wiset",
         
-          title: "New research project funded by WISET!",
+          title: "💰 New research **project** **funded** by **WISET**!",
         
         description: "New research project funded by WISET!",
         section: "Posts",
@@ -181,7 +181,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-chi-2024-lbw",
         
-          title: "One paper accepted to CHI 2024 LBW!",
+          title: "📄 One paper **accepted** to **CHI** 2024 **LBW**!",
         
         description: "One paper accepted to CHI 2024 LBW!",
         section: "Posts",
@@ -192,7 +192,7 @@ ninja.data = [{
         },
       },{id: "post-received-two-outstanding-papers-from-kcc-2023",
         
-          title: "Received two outstanding papers from KCC 2023!",
+          title: "🏆 Received two **outstanding** papers from **KCC** 2023!",
         
         description: "Received two outstanding papers from KCC 2023!",
         section: "Posts",
@@ -203,7 +203,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-mobilehci-2023",
         
-          title: "One paper accepted to MobileHCI 2023!",
+          title: "📄 One paper **accepted** to **MobileHCI** 2023!",
         
         description: "One paper accepted to MobileHCI 2023!",
         section: "Posts",
@@ -214,7 +214,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-cvpr-workshop-abaw",
         
-          title: "One paper accepted to CVPR workshop! (ABAW)",
+          title: "📄 One paper **accepted** to **CVPR** workshop! (**ABAW**)",
         
         description: "One paper accepted to CVPR workshop! (ABAW)",
         section: "Posts",
@@ -225,7 +225,7 @@ ninja.data = [{
         },
       },{id: "post-new-research-project-funded-by-wiset",
         
-          title: "New research project funded by WISET",
+          title: "💰 New research **project** **funded** by **WISET**",
         
         description: "New research project funded by WISET",
         section: "Posts",
@@ -236,7 +236,7 @@ ninja.data = [{
         },
       },{id: "post-two-papers-accepted-to-2023-acm-chi-as-lbw",
         
-          title: "Two papers accepted to 2023 ACM CHI as LBW!",
+          title: "📄 Two papers **accepted** to 2023 **ACM** **CHI** as **LBW**!",
         
         description: "Two papers accepted to 2023 ACM CHI as LBW!",
         section: "Posts",
@@ -247,7 +247,7 @@ ninja.data = [{
         },
       },{id: "post-new-research-grant-from-nrf",
         
-          title: "New research grant from NRF!",
+          title: "💰 New research **grant** from **NRF**!",
         
         description: "New research grant from NRF!",
         section: "Posts",
@@ -258,7 +258,7 @@ ninja.data = [{
         },
       },{id: "post-received-39-outstanding-technology-award-39-from-kird-competition",
         
-          title: "Received &#39;Outstanding Technology Award&#39; from KIRD competition!",
+          title: "🏆 Received &#39;**Outstanding** **Technology** **Award**&#39; from **KIRD** competition!",
         
         description: "Received &#39;Outstanding Technology Award&#39; from KIRD competition!",
         section: "Posts",
@@ -269,7 +269,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-eccv-workshop-on-affective-behavior-analysis-in-the-wild",
         
-          title: "One paper accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!",
+          title: "📄 One paper **accepted** to **ECCV** workshop on Affective Behavior Analysis in-the-wild!",
         
         description: "One paper accepted to ECCV workshop on Affective Behavior Analysis in-the-wild!",
         section: "Posts",
@@ -278,9 +278,9 @@ ninja.data = [{
             window.location.href = "/blog/2022/one-paper-accepted-to-eccv-workshop-on-affective-behavior-analysis-in-the-wild/";
           
         },
-      },{id: "post-received-two-outstanding-paper-awards",
+      },{id: "post-received-two-outstanding-paper-award-s",
         
-          title: "Received two outstanding paper awards!",
+          title: "🏆 Received two **outstanding** paper **award**s!",
         
         description: "Received two outstanding paper awards!",
         section: "Posts",
@@ -289,9 +289,9 @@ ninja.data = [{
             window.location.href = "/blog/2022/received-two-outstanding-paper-awards/";
           
         },
-      },{id: "post-won-3rd-place-at-4th-abaw-competition-eccv2022",
+      },{id: "post-won-3rd-place-at-4th-abaw-competition-eccv-2022",
         
-          title: "Won 3rd place at 4th ABAW competition! (ECCV2022)",
+          title: "🏆 Won 3rd place at 4th **ABAW** competition! (**ECCV**2022)",
         
         description: "Won 3rd place at 4th ABAW competition! (ECCV2022)",
         section: "Posts",
@@ -300,9 +300,9 @@ ninja.data = [{
             window.location.href = "/blog/2022/won-3rd-place-at-4th-abaw-competition-eccv2022/";
           
         },
-      },{id: "post-new-funding-granted-by-kird-real-challenge-2022-project",
+      },{id: "post-new-funding-grant-ed-by-kird-real-challenge-2022-project",
         
-          title: "New funding granted by KIRD Real-Challenge 2022 project!",
+          title: "💰 New funding **grant**ed by **KIRD** Real-Challenge 2022 **project**!",
         
         description: "New funding granted by KIRD Real-Challenge 2022 project!",
         section: "Posts",
@@ -313,7 +313,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-ieee-embc-2022",
         
-          title: "One paper accepted to IEEE EMBC 2022",
+          title: "📄 One paper **accepted** to **IEEE** EMBC 2022",
         
         description: "One paper accepted to IEEE EMBC 2022",
         section: "Posts",
@@ -324,7 +324,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-cancers-sci-if-6-639",
         
-          title: "One paper accepted to Cancers (SCI, IF:6.639)",
+          title: "📄 One paper **accepted** to Cancers (SCI, IF:6.639)",
         
         description: "One paper accepted to Cancers (SCI, IF:6.639)",
         section: "Posts",
@@ -335,7 +335,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-to-cvpr-workshop-on-affective-behavior-analysis-in-the-wild",
         
-          title: "One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!",
+          title: "📄 One paper **accepted** to **CVPR** workshop on Affective Behavior Analysis in-the-wild!",
         
         description: "One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!",
         section: "Posts",
@@ -346,7 +346,7 @@ ninja.data = [{
         },
       },{id: "post-won-2nd-place-at-abaw-2022",
         
-          title: "Won 2nd place at ABAW 2022!",
+          title: "🏆 Won 2nd place at **ABAW** 2022!",
         
         description: "Won 2nd place at ABAW 2022!",
         section: "Posts",
@@ -355,9 +355,9 @@ ninja.data = [{
             window.location.href = "/blog/2022/won-2nd-place-at-abaw-2022/";
           
         },
-      },{id: "post-new-funding-granted-by-wiset-2022-project",
+      },{id: "post-new-funding-grant-ed-by-wiset-2022-project",
         
-          title: "New funding granted by WISET 2022 project",
+          title: "💰 New funding **grant**ed by **WISET** 2022 **project**",
         
         description: "New funding granted by WISET 2022 project",
         section: "Posts",
@@ -368,7 +368,7 @@ ninja.data = [{
         },
       },{id: "post-one-paper-accepted-at-acm-etra-workshop-on-eye-tracking-in-learning-and-education",
         
-          title: "One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education...",
+          title: "📄 One paper **accepted** at **ACM** ETRA workshop on Eye-tracking in Learning and...",
         
         description: "One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education",
         section: "Posts",
