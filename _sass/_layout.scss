@@ -38,6 +38,119 @@ body.sticky-bottom-footer {
   }
 }
 
+// Home page layout
+.profile-hero-image {
+  width: 100%;
+  height: 30vh; // Fixed height: 30% of viewport
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50%;
+  margin-right: -50%;
+  margin-bottom: 2rem;
+  margin-top: -3rem; // Pull up to remove container mt-5 gap
+  overflow: hidden;
+  
+  img,
+  picture,
+  picture img {
+    width: 100% !important; // Use 100% to avoid horizontal scrollbar
+    height: 30vh !important; // Fixed height: 30% of screen
+    object-fit: contain !important; // Show entire image, maintain aspect ratio
+    object-position: center !important; // Center the image
+    display: block;
+  }
+  
+  figure {
+    margin: 0 !important;
+    width: 100% !important;
+    height: 30vh !important;
+    display: block;
+    overflow: hidden;
+    
+    picture {
+      width: 100% !important;
+      height: 30vh !important;
+      display: block;
+    }
+    
+    img,
+    picture img {
+      width: 100% !important;
+      height: 30vh !important;
+      object-fit: contain !important; // Show entire image, maintain aspect ratio
+      object-position: center !important; // Center the image
+    }
+  }
+}
+
+// Remove top margin/padding from post when hero image is present
+.post:has(.profile-hero-image) {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.post .profile-hero-image {
+  margin-top: -3rem; // Pull up to remove container mt-5 gap
+}
+
+// Remove any top spacing that creates gap between nav and image
+.post > .profile-hero-image:first-child {
+  margin-top: -3rem; // Pull up to remove container mt-5 gap
+  padding-top: 0;
+}
+
+.home-content-layout {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+.home-intro-section {
+  flex: 0 0 50%;
+  min-width: 0; // Prevents flex item from overflowing
+  
+  @media (max-width: 768px) {
+    flex: 1 1 100%;
+  }
+}
+
+.home-news-section {
+  flex: 0 0 50%;
+  min-width: 0; // Prevents flex item from overflowing
+  
+  @media (max-width: 768px) {
+    flex: 1 1 100%;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.lab-intro-content {
+  p.lead {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+.research-pillars-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
@@ -53,4 +166,5 @@ body.sticky-bottom-footer {
 // TODO: redefine projects layout.
 
 @import "photoswipe";
+
 

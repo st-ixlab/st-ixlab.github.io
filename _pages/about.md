@@ -7,7 +7,9 @@ nav_order: 1
 custom_title: "<b>Seoultech <span style='color: #ff6464ea;'>IX</span>Lab</b>"
 subtitle: # kept empty to avoid default rendering
 profile:
-  enabled: false
+  enabled: true
+  image: lab_intro1.jpg
+  align: full
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -23,20 +25,13 @@ latest_posts:
   limit: 10 # leave blank to include all the blog posts
 ---
 
-<!-- Subtitle and Image Section -->
-<div class="row mb-4">
-  <div class="col-md-6">
-    <p class="lead">
-      The SEOULTECH Interaction Lab (IXLAB) explores the future of human-computer synergy through <span style="color: #ff6464ea; font-weight: bold;">AI-infused interactive computing</span>. We focus on designing intelligent, adaptive systems that understand complex human behaviors and contexts via multimodal sensing. By bridging adaptive intelligence with immersive environments, we strive to create <span style="color: #ff6464ea; font-weight: bold;">purposeful interaction paradigms</span> that empower individuals in an increasingly automated and augmented world.
-    </p>
-  </div>
-  <div class="col-md-6">
-    <div style="width: 100%; height: 0; padding-bottom: 56.25%; position: relative; overflow: hidden; border-radius: 8px;">
-        <img src="assets/img/lab_intro1.jpg" alt="Seoultech IXLab" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-    </div>
-  </div>
+<!-- Lab Introduction Section (Left 30%) -->
+<div class="lab-intro-content">
+  <p class="lead">
+    The SEOULTECH Interaction Lab (IXLAB) explores the future of human-computer synergy through <span style="color: #ff6464ea; font-weight: bold;">AI-infused interactive computing</span>. We focus on designing intelligent, adaptive systems that understand complex human behaviors and contexts via multimodal sensing. By bridging adaptive intelligence with immersive environments, we strive to create <span style="color: #ff6464ea; font-weight: bold;">purposeful interaction paradigms</span> that empower individuals in an increasingly automated and augmented world.
+  </p>
 </div>
-<hr>
+
 <!-- Research Pillars Section -->
 <div class="row mt-5">
   <div class="col-12 mb-4">
