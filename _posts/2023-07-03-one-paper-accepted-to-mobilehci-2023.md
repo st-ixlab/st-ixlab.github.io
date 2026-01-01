@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to MobileHCI 2023!
+title: "📄 One paper **accepted** to **MobileHCI** 2023!"
 date: 2023-07-03 00:00:00
 description: One paper accepted to MobileHCI 2023!
 tags: news

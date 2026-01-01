@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Won 3rd place at 4th ABAW competition! (ECCV2022)
+title: "🏆 Won 3rd place at 4th **ABAW** competition! (**ECCV**2022)"
 date: 2022-07-26 00:00:00
 description: Won 3rd place at 4th ABAW competition! (ECCV2022)
 tags: news

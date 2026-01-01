@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Received two outstanding papers from KCC 2023!
+title: "🏆 Received two **outstanding** papers from **KCC** 2023!"
 date: 2023-07-17 00:00:00
 description: Received two outstanding papers from KCC 2023!
 tags: news

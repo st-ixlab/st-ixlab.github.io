@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Received two outstanding paper awards!
+title: "🏆 Received two **outstanding** paper **award**s!"
 date: 2022-08-04 00:00:00
 description: Received two outstanding paper awards!
 tags: news

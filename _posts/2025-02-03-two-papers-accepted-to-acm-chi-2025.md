@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Two papers accepted to ACM CHI 2025!
+title: "📄 Two papers **accepted** to **ACM** **CHI** 2025!"
 date: 2025-02-03 00:00:00
 description: Two papers accepted to ACM CHI 2025!
 tags: news

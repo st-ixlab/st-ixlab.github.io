@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to 2025 CHI LBW!
+title: "📄 One paper **accepted** to 2025 **CHI** **LBW**!"
 date: 2025-02-24 00:00:00
 description: One paper accepted to 2025 CHI LBW!
 tags: news

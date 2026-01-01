@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!
+title: "📄 One paper **accepted** to **CVPR** workshop on Affective Behavior Analysis in-the-wild!"
 date: 2022-04-15 00:00:00
 description: One paper accepted to CVPR workshop on Affective Behavior Analysis in-the-wild!
 tags: news

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education
+title: "📄 One paper **accepted** at **ACM** ETRA workshop on Eye-tracking in Learning and Education"
 date: 2022-04-09 00:00:00
 description: One paper accepted at ACM ETRA workshop on Eye-tracking in Learning and Education
 tags: news

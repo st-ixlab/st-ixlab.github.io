@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Two papers accepted to 2023 ACM CHI as LBW!
+title: "📄 Two papers **accepted** to 2023 **ACM** **CHI** as **LBW**!"
 date: 2023-03-01 00:00:00
 description: Two papers accepted to 2023 ACM CHI as LBW!
 tags: news

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Received Best Paper Award for IUI2025 paper!
+title: "🏆 Received **Best Paper** **Award** for **IUI**2025 paper!"
 date: 2025-04-18 00:00:00
 description: Received Best Paper Award for IUI2025 paper!
 tags: news

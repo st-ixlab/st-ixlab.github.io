@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to ISMAR 2024!
+title: "📄 One paper **accepted** to **ISMAR** 2024!"
 date: 2024-08-02 00:00:00
 description: One paper accepted to ISMAR 2024!
 tags: news

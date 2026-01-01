@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Received 'Outstanding Technology Award' from KIRD competition!
+title: "🏆 Received '**Outstanding** **Technology** **Award**' from **KIRD** competition!"
 date: 2022-09-23 00:00:00
 description: Received 'Outstanding Technology Award' from KIRD competition!
 tags: news

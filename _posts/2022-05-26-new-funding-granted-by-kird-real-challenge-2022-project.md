@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New funding granted by KIRD Real-Challenge 2022 project!
+title: "💰 New funding **grant**ed by **KIRD** Real-Challenge 2022 **project**!"
 date: 2022-05-26 00:00:00
 description: New funding granted by KIRD Real-Challenge 2022 project!
 tags: news

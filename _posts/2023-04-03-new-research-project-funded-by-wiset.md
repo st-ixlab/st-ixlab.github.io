@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New research project funded by WISET
+title: "💰 New research **project** **funded** by **WISET**"
 date: 2023-04-03 00:00:00
 description: New research project funded by WISET
 tags: news

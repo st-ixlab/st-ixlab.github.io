@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New research grant from NRF!
+title: "💰 New research **grant** from **NRF**!"
 date: 2023-03-01 00:00:00
 description: New research grant from NRF!
 tags: news

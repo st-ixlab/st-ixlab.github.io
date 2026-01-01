@@ -40,45 +40,45 @@ body.sticky-bottom-footer {
 
 // Home page layout
 .profile-hero-image {
-  width: 100%;
-  height: 30vh; // Fixed height: 30% of viewport
+  width: 100vw;
+  height: 40vh; // Fixed height: 40% of viewport
   position: relative;
   left: 50%;
   right: 50%;
-  margin-left: -50%;
-  margin-right: -50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   margin-bottom: 2rem;
   margin-top: -3rem; // Pull up to remove container mt-5 gap
   overflow: hidden;
-  
+
   img,
   picture,
   picture img {
     width: 100% !important; // Use 100% to avoid horizontal scrollbar
-    height: 30vh !important; // Fixed height: 30% of screen
-    object-fit: contain !important; // Show entire image, maintain aspect ratio
+    height: 40vh !important; // Fixed height: 40% of screen
+    object-fit: cover !important; // Fill the area, cropping if necessary
     object-position: center !important; // Center the image
     display: block;
   }
-  
+
   figure {
     margin: 0 !important;
     width: 100% !important;
-    height: 30vh !important;
+    height: 40vh !important;
     display: block;
     overflow: hidden;
-    
+
     picture {
       width: 100% !important;
-      height: 30vh !important;
+      height: 40vh !important;
       display: block;
     }
-    
+
     img,
     picture img {
       width: 100% !important;
-      height: 30vh !important;
-      object-fit: contain !important; // Show entire image, maintain aspect ratio
+      height: 40vh !important;
+      object-fit: cover !important; // Fill the area, cropping if necessary
       object-position: center !important; // Center the image
     }
   }
@@ -95,7 +95,7 @@ body.sticky-bottom-footer {
 }
 
 // Remove any top spacing that creates gap between nav and image
-.post > .profile-hero-image:first-child {
+.post>.profile-hero-image:first-child {
   margin-top: -3rem; // Pull up to remove container mt-5 gap
   padding-top: 0;
 }
@@ -103,8 +103,8 @@ body.sticky-bottom-footer {
 .home-content-layout {
   display: flex;
   gap: 2rem;
-  margin-bottom: 3rem;
-  
+  margin-bottom: 0rem;
+
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 1.5rem;
@@ -114,7 +114,7 @@ body.sticky-bottom-footer {
 .home-intro-section {
   flex: 0 0 50%;
   min-width: 0; // Prevents flex item from overflowing
-  
+
   @media (max-width: 768px) {
     flex: 1 1 100%;
   }
@@ -123,14 +123,23 @@ body.sticky-bottom-footer {
 .home-news-section {
   flex: 0 0 50%;
   min-width: 0; // Prevents flex item from overflowing
-  
+
   @media (max-width: 768px) {
     flex: 1 1 100%;
   }
-  
+
   h2 {
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  .news-title {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 }
 
@@ -139,15 +148,15 @@ body.sticky-bottom-footer {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 0;
+    text-align: justify;
   }
 }
 
 .research-pillars-section {
-  margin-top: 3rem;
   margin-bottom: 3rem;
-  
+
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 }
 
@@ -165,6 +174,19 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 
+// Research Topics Card Stlying
+.topic-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f8f9fa; // Light gray background
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  }
+
+  .card-title {
+    font-weight: 600;
+  }
+}
+
 @import "photoswipe";
-
-

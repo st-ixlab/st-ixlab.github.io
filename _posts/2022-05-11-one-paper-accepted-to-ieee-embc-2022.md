@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to IEEE EMBC 2022
+title: "📄 One paper **accepted** to **IEEE** EMBC 2022"
 date: 2022-05-11 00:00:00
 description: One paper accepted to IEEE EMBC 2022
 tags: news

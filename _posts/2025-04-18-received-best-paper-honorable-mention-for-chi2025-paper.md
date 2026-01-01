@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Received Best Paper Honorable Mention for CHI2025 paper!
+title: "🏆 Received **Best Paper** **Honorable Mention** for **CHI**2025 paper!"
 date: 2025-04-18 00:00:00
 description: Received Best Paper Honorable Mention for CHI2025 paper!
 tags: news

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to ACM IUI 2025!
+title: "📄 One paper **accepted** to **ACM** **IUI** 2025!"
 date: 2025-02-03 00:00:00
 description: One paper accepted to ACM IUI 2025!
 tags: news

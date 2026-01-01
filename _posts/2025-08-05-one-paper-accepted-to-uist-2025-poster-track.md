@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to UIST 2025 Poster track!
+title: "📄 One paper **accepted** to **UIST** 2025 **Poster** track!"
 date: 2025-08-05 00:00:00
 description: One paper accepted to UIST 2025 Poster track!
 tags: news

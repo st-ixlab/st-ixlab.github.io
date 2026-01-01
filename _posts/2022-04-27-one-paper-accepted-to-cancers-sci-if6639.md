@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to Cancers (SCI, IF:6.639)
+title: "📄 One paper **accepted** to Cancers (SCI, IF:6.639)"
 date: 2022-04-27 00:00:00
 description: One paper accepted to Cancers (SCI, IF:6.639)
 tags: news

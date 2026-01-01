@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Won 2nd place at ABAW 2022!
+title: "🏆 Won 2nd place at **ABAW** 2022!"
 date: 2022-04-10 00:00:00
 description: Won 2nd place at ABAW 2022!
 tags: news

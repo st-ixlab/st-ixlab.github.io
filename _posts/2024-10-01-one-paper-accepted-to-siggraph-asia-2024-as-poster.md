@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One paper accepted to SIGGRAPH ASIA 2024 as poster!
+title: "📄 One paper **accepted** to **SIGGRAPH** ASIA 2024 as **poster**!"
 date: 2024-10-01 00:00:00
 description: One paper accepted to SIGGRAPH ASIA 2024 as poster!
 tags: news
