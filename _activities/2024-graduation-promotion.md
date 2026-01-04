@@ -2,7 +2,7 @@
 layout: post
 title: "2024 Graduation & Promotion"
 description: "Photos from 2024 Graduation & Promotion"
-img: /assets/img/activities/2024-graduation-promotion/album-2676-1.jpg
+img: /assets/img/activities/2024-graduation-promotion/album-2676-5.jpg
 importance: 2
 category: event
 images:
