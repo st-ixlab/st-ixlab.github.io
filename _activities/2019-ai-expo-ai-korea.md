@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2019 AI Expo & AI Korea"
+date: 2019-07-01
 description: "Photos from 2019 AI Expo & AI Korea"
 img: /assets/img/activities/2019-ai-expo-ai-korea/album-547-1.jpg
 importance: 2

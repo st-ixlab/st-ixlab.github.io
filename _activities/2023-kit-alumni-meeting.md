@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2023 KIT Alumni Meeting"
+date: 2023-11-01
 description: "Photos from 2023 KIT Alumni Meeting"
 img: /assets/img/activities/2023-kit-alumni-meeting/album-2384-3.jpg
 importance: 2

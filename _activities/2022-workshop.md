@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2022 Workshop"
+date: 2022-07-01
 description: "Photos from 2022 Workshop"
 img: /assets/img/activities/2022-workshop/album-2216-6.jpg
 importance: 2

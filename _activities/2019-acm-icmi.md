@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2019 ACM ICMI"
+date: 2019-09-01
 description: "Photos from 2019 ACM ICMI"
 img: /assets/img/activities/2019-acm-icmi/album-578-1.jpg
 importance: 2

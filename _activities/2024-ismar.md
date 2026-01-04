@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2024 ISMAR"
+date: 2024-10-01
 description: "Photos from 2024 ISMAR"
 img: /assets/img/activities/2024-ismar/album-2746-1.jpg
 importance: 2

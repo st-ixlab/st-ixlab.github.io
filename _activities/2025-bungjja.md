@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2025 BungJJA!"
+date: 2025-03-01
 description: "Photos from 2025 BungJJA!"
 img: /assets/img/activities/2025-bungjja/album-2878-4.jpg
 importance: 2

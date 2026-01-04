@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2021 AIEXPO+SeoulTech"
+date: 2021-04-01
 description: "Photos from 2021 AIEXPO+SeoulTech"
 img: /assets/img/activities/2021-aiexposeoultech/album-1523-8.jpg
 importance: 2

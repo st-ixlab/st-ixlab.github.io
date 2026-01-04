@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2023 Summer Graduation"
+date: 2023-08-01
 description: "Photos from 2023 Summer Graduation"
 img: /assets/img/activities/2023-summer-graduation/album-2555-1.jpg
 importance: 2

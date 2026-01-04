@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2016 동계학회 참석"
+date: 2016-01-01
 description: "Photos from 2016 Winter Conference Attendance"
 img: /assets/img/activities/2016-winter-conference/winter-conf-2.jpg
 importance: 2

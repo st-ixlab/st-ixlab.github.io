@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2025 Home Coming"
+date: 2025-05-01
 description: "Photos from 2025 Home Coming"
 img: /assets/img/activities/2025-home-coming/album-2923-13.jpg
 importance: 2

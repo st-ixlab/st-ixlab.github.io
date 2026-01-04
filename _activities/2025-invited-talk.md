@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2025 Invited Talk"
+date: 2025-08-01
 description: "Photos from 2025 Invited Talk"
 img: /assets/img/activities/2025-invited-talk/Invited_Talk_Kaist_01.jpg
 importance: 1

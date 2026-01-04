@@ -8,7 +8,7 @@ description: Learn how the crazy members of Interaction Lab play and study!
 ---
 
 <div class="row">
-{% assign sorted_activities = site.activities | sort: 'title' | reverse %}
+{% assign sorted_activities = site.activities | sort: 'date' | reverse %}
 {% for activity in sorted_activities %}
   <div class="col-md-4 col-sm-6">
     <div class="card mb-3">

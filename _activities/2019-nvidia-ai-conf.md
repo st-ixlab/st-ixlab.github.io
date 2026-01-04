@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2019 NVIDIA AI Conf"
+date: 2019-01-01
 description: "Photos from 2019 NVIDIA AI Conf"
 img: /assets/img/activities/2019-nvidia-ai-conf/album-528-1.jpg
 importance: 2

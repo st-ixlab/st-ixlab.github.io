@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2024 Graduation & Promotion"
+date: 2024-02-02
 description: "Photos from 2024 Graduation & Promotion"
 img: /assets/img/activities/2024-graduation-promotion/album-2676-5.jpg
 importance: 2

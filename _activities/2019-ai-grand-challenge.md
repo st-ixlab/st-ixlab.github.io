@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2019 AI Grand Challenge"
+date: 2019-10-01
 description: "Photos from 2019 AI Grand Challenge"
 img: /assets/img/activities/2019-ai-grand-challenge/20190711_1416071.jpg
 importance: 2

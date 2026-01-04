@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2017 Nvidia Deep Learning Day"
+date: 2017-05-01
 description: "Photos from 2017 Nvidia Deep Learning Day"
 img: /assets/img/activities/2017-nvidia-deep-learning-day/nvidia-dl-day-1.jpg
 importance: 2

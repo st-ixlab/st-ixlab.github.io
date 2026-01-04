@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2022 SmartTech"
+date: 2022-04-01
 description: "Photos from 2022 SmartTech"
 img: /assets/img/activities/2022-smarttech/album-2196-6.jpg
 importance: 2

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2018 IEEE EMBC"
+date: 2018-06-01
 description: "Photos from 2018 IEEE EMBC"
 img: /assets/img/activities/2018-ieee-embc/album-405-1.jpg
 importance: 2
