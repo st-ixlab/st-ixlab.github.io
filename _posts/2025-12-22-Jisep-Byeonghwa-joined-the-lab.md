@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "🧑‍🎓 Jisep and Byeonghwa joined the lab!"
+title: "🧑‍🎓 Jiseop and Byeonghwa joined the lab!"
 date: 2025-12-22 00:00:00
-description: Jisep and Byeonghwa joined the lab!
+description: Jiseop and Byeonghwa joined the lab!
 tags: news
 categories: news
 thumbnail: assets/img/news-2025-12-22-1.jpg

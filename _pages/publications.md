@@ -11,16 +11,22 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<div class="row">
+  <div class="col-sm-11">
+    {% include bib_search.liquid %}
+    
+    <div class="publications">
+      <!-- Under Review Section -->
+      <h2 class="bibliography">Under Review</h2>
+      {% bibliography --query @*[note~=Under review]* --group_by none %}
 
-<div class="publications">
+      <!-- Regular Publications -->
+      <h2 class="bibliography">Publications</h2>
+      {% bibliography %}
+    </div>
+  </div>
 
-<!-- Under Review Section -->
-<h2 class="bibliography">Under Review</h2>
-{% bibliography --query @*[note~=Under review]* --group_by none %}
-
-<!-- Regular Publications -->
-<h2 class="bibliography">Publications</h2>
-{% bibliography %}
-
+  <div class="col-sm-1">
+    {% include year_sidebar.liquid %}
+  </div>
 </div>
