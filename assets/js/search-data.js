@@ -557,11 +557,36 @@ ninja.data = [{
           description: "Photos from 2025 Home Coming",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-home-coming/";
+            },},{id: "activities-2025-invited-talk",
+          title: '2025 Invited Talk',
+          description: "Photos from 2025 Invited Talk",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-invited-talk/";
+            },},{id: "activities-2025-ismar",
+          title: '2025 ISMAR',
+          description: "Photos from 2025 ISMAR",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-ismar/";
             },},{id: "activities-2025-iui",
           title: '2025 IUI',
           description: "Photos from 2025 IUI",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-iui/";
+            },},{id: "activities-2025-kcc",
+          title: '2025 KCC',
+          description: "Photos from 2025 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-kcc/";
+            },},{id: "activities-2025-ksc",
+          title: '2025 KSC',
+          description: "Photos from 2025 KSC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-ksc/";
+            },},{id: "activities-2025-uist",
+          title: '2025 UIST',
+          description: "Photos from 2025 UIST",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-uist/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
