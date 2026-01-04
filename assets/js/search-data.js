@@ -58,11 +58,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-jisep-and-byeonghwa-joined-the-lab",
+        },{id: "post-jiseop-and-byeonghwa-joined-the-lab",
         
-          title: "🧑‍🎓 Jisep and Byeonghwa joined the lab!",
+          title: "🧑‍🎓 Jiseop and Byeonghwa joined the lab!",
         
-        description: "Jisep and Byeonghwa joined the lab!",
+        description: "Jiseop and Byeonghwa joined the lab!",
         section: "Posts",
         handler: () => {
           
