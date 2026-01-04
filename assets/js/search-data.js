@@ -58,7 +58,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-one-paper-accepted-to-uist-2025-poster-track",
+        },{id: "post-jisep-and-byeonghwa-joined-the-lab",
+        
+          title: "🧑‍🎓 Jisep and Byeonghwa joined the lab!",
+        
+        description: "Jisep and Byeonghwa joined the lab!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Jisep-Byeonghwa-joined-the-lab/";
+          
+        },
+      },{id: "post-our-paper-accepted-to-ijhcs-if-4-7-21-9",
+        
+          title: "📄 Our paper **accepted** to IJHCS! (IF:4.7, 21.9%)",
+        
+        description: "Our paper accepted to IJHCS! (IF:4.7, 21.9%)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/our-paper-accepted-to-ijhcs-copy/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-ismar-2025-poster-track",
+        
+          title: "📄 One paper **accepted** to **ISMAR** 2025 **Poster** track!",
+        
+        description: "One paper accepted to ISMAR 2025 Poster track!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/one-paper-accepted-to-ismar-2025-poster-track/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-uist-2025-poster-track",
         
           title: "📄 One paper **accepted** to **UIST** 2025 **Poster** track!",
         
@@ -377,16 +410,16 @@ ninja.data = [{
             window.location.href = "/blog/2022/one-paper-accepted-at-acm-etra-workshop-on-eye-tra/";
           
         },
-      },{id: "activities-2016-kcc",
-          title: '2016 KCC',
-          description: "Photos from 2016 KCC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2016-kcc/";
-            },},{id: "activities-2016-동계학회-참석",
+      },{id: "activities-2016-동계학회-참석",
           title: '2016 동계학회 참석',
           description: "Photos from 2016 Winter Conference Attendance",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2016-winter-conference/";
+            },},{id: "activities-2016-kcc",
+          title: '2016 KCC',
+          description: "Photos from 2016 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2016-kcc/";
             },},{id: "activities-2017-edb-학회-참석",
           title: '2017 EDB 학회 참석',
           description: "Photos from 2017 EDB 학회 참석",
@@ -397,26 +430,36 @@ ninja.data = [{
           description: "Photos from 2017 Nvidia Deep Learning Day",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2017-nvidia-deep-learning-day/";
-            },},{id: "activities-2018-ieee-embc",
-          title: '2018 IEEE EMBC',
-          description: "Photos from 2018 IEEE EMBC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2018-ieee-embc/";
             },},{id: "activities-2018-정보기술학회-참석",
           title: '2018 정보기술학회 참석',
           description: "Photos from 2018 정보기술학회 참석",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2018/";
-            },},{id: "activities-2019-acm-icmi",
-          title: '2019 ACM ICMI',
-          description: "Photos from 2019 ACM ICMI",
+            },},{id: "activities-2018-ieee-embc",
+          title: '2018 IEEE EMBC',
+          description: "Photos from 2018 IEEE EMBC",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2019-acm-icmi/";
+              window.location.href = "/activities/2018-ieee-embc/";
+            },},{id: "activities-2019-nvidia-ai-conf",
+          title: '2019 NVIDIA AI Conf',
+          description: "Photos from 2019 NVIDIA AI Conf",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2019-nvidia-ai-conf/";
+            },},{id: "activities-2019-kcc",
+          title: '2019 KCC',
+          description: "Photos from 2019 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2019-kcc/";
             },},{id: "activities-2019-ai-expo-amp-ai-korea",
           title: '2019 AI Expo &amp;amp; AI Korea',
           description: "Photos from 2019 AI Expo &amp; AI Korea",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2019-ai-expo-ai-korea/";
+            },},{id: "activities-2019-acm-icmi",
+          title: '2019 ACM ICMI',
+          description: "Photos from 2019 ACM ICMI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2019-acm-icmi/";
             },},{id: "activities-2019-ai-grand-challenge",
           title: '2019 AI Grand Challenge',
           description: "Photos from 2019 AI Grand Challenge",
@@ -427,136 +470,136 @@ ninja.data = [{
           description: "Photos from 2019 ICCV",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2019-iccv/";
-            },},{id: "activities-2019-kcc",
-          title: '2019 KCC',
-          description: "Photos from 2019 KCC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2019-kcc/";
-            },},{id: "activities-2019-nvidia-ai-conf",
-          title: '2019 NVIDIA AI Conf',
-          description: "Photos from 2019 NVIDIA AI Conf",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2019-nvidia-ai-conf/";
             },},{id: "activities-2021-aiexpo-seoultech",
           title: '2021 AIEXPO+SeoulTech',
           description: "Photos from 2021 AIEXPO+SeoulTech",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2021-aiexposeoultech/";
-            },},{id: "activities-2021-esk",
-          title: '2021 ESK',
-          description: "Photos from 2021 ESK",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2021-esk/";
             },},{id: "activities-2021-kics",
           title: '2021 KICS',
           description: "Photos from 2021 KICS",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2021-kics/";
-            },},{id: "activities-2022-cvpr",
-          title: '2022 CVPR',
-          description: "Photos from 2022 CVPR",
+            },},{id: "activities-2021-esk",
+          title: '2021 ESK',
+          description: "Photos from 2021 ESK",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2022-cvpr/";
-            },},{id: "activities-2022-embc",
-          title: '2022 EMBC',
-          description: "Photos from 2022 EMBC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2022-embc/";
-            },},{id: "activities-2022-esk",
-          title: '2022 ESK',
-          description: "Photos from 2022 ESK",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2022-esk/";
-            },},{id: "activities-2022-kcc",
-          title: '2022 KCC',
-          description: "Photos from 2022 KCC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2022-kcc/";
+              window.location.href = "/activities/2021-esk/";
             },},{id: "activities-2022-smarttech",
           title: '2022 SmartTech',
           description: "Photos from 2022 SmartTech",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2022-smarttech/";
+            },},{id: "activities-2022-cvpr",
+          title: '2022 CVPR',
+          description: "Photos from 2022 CVPR",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2022-cvpr/";
+            },},{id: "activities-2022-kcc",
+          title: '2022 KCC',
+          description: "Photos from 2022 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2022-kcc/";
+            },},{id: "activities-2022-embc",
+          title: '2022 EMBC',
+          description: "Photos from 2022 EMBC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2022-embc/";
             },},{id: "activities-2022-workshop",
           title: '2022 Workshop',
           description: "Photos from 2022 Workshop",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2022-workshop/";
-            },},{id: "activities-2023-chi",
-          title: '2023 CHI',
-          description: "Photos from 2023 CHI",
+            },},{id: "activities-2022-esk",
+          title: '2022 ESK',
+          description: "Photos from 2022 ESK",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2023-chi/";
+              window.location.href = "/activities/2022-esk/";
             },},{id: "activities-2023-hcik",
           title: '2023 HCIK',
           description: "Photos from 2023 HCIK",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2023-hcik/";
+            },},{id: "activities-2023-chi",
+          title: '2023 CHI',
+          description: "Photos from 2023 CHI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2023-chi/";
             },},{id: "activities-2023-kcc",
           title: '2023 KCC',
           description: "Photos from 2023 KCC",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2023-kcc/";
-            },},{id: "activities-2023-kit-alumni-meeting",
-          title: '2023 KIT Alumni Meeting',
-          description: "Photos from 2023 KIT Alumni Meeting",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2023-kit-alumni-meeting/";
             },},{id: "activities-2023-summer-graduation",
           title: '2023 Summer Graduation',
           description: "Photos from 2023 Summer Graduation",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2023-summer-graduation/";
-            },},{id: "activities-2024-chi",
-          title: '2024 CHI',
-          description: "Photos from 2024 CHI",
+            },},{id: "activities-2023-kit-alumni-meeting",
+          title: '2023 KIT Alumni Meeting',
+          description: "Photos from 2023 KIT Alumni Meeting",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2024-chi/";
-            },},{id: "activities-2024-esk",
-          title: '2024 ESK',
-          description: "Photos from 2024 ESK",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2024-esk/";
-            },},{id: "activities-2024-graduation-amp-promotion",
-          title: '2024 Graduation &amp;amp; Promotion',
-          description: "Photos from 2024 Graduation &amp; Promotion",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2024-graduation-promotion/";
+              window.location.href = "/activities/2023-kit-alumni-meeting/";
             },},{id: "activities-2024-hcik",
           title: '2024 HCIK',
           description: "Photos from 2024 HCIK",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2024-hcik/";
+            },},{id: "activities-2024-graduation-amp-promotion",
+          title: '2024 Graduation &amp;amp; Promotion',
+          description: "Photos from 2024 Graduation &amp; Promotion",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2024-graduation-promotion/";
+            },},{id: "activities-2024-chi",
+          title: '2024 CHI',
+          description: "Photos from 2024 CHI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2024-chi/";
             },},{id: "activities-2024-ismar",
           title: '2024 ISMAR',
           description: "Photos from 2024 ISMAR",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2024-ismar/";
+            },},{id: "activities-2024-esk",
+          title: '2024 ESK',
+          description: "Photos from 2024 ESK",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2024-esk/";
             },},{id: "activities-2024-siggraph-asia",
           title: '2024 SIGGRAPH ASIA',
           description: "Photos from 2024 SIGGRAPH ASIA",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2024-siggraph-asia/";
-            },},{id: "activities-2025-bungjja",
-          title: '2025 BungJJA!',
-          description: "Photos from 2025 BungJJA!",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2025-bungjja/";
-            },},{id: "activities-2025-chi",
-          title: '2025 CHI',
-          description: "Photos from 2025 CHI",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2025-chi/";
             },},{id: "activities-2025-hcik",
           title: '2025 HCIK',
           description: "Photos from 2025 HCIK",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-hcik/";
+            },},{id: "activities-2025-bungjja",
+          title: '2025 BungJJA!',
+          description: "Photos from 2025 BungJJA!",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-bungjja/";
+            },},{id: "activities-2025-iui",
+          title: '2025 IUI',
+          description: "Photos from 2025 IUI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-iui/";
+            },},{id: "activities-2025-chi",
+          title: '2025 CHI',
+          description: "Photos from 2025 CHI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-chi/";
             },},{id: "activities-2025-home-coming",
           title: '2025 Home Coming',
           description: "Photos from 2025 Home Coming",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-home-coming/";
+            },},{id: "activities-2025-kcc",
+          title: '2025 KCC',
+          description: "Photos from 2025 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-kcc/";
             },},{id: "activities-2025-invited-talk",
           title: '2025 Invited Talk',
           description: "Photos from 2025 Invited Talk",
@@ -567,26 +610,16 @@ ninja.data = [{
           description: "Photos from 2025 ISMAR",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-ismar/";
-            },},{id: "activities-2025-iui",
-          title: '2025 IUI',
-          description: "Photos from 2025 IUI",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2025-iui/";
-            },},{id: "activities-2025-kcc",
-          title: '2025 KCC',
-          description: "Photos from 2025 KCC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2025-kcc/";
-            },},{id: "activities-2025-ksc",
-          title: '2025 KSC',
-          description: "Photos from 2025 KSC",
-          section: "Activities",handler: () => {
-              window.location.href = "/activities/2025-ksc/";
             },},{id: "activities-2025-uist",
           title: '2025 UIST',
           description: "Photos from 2025 UIST",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-uist/";
+            },},{id: "activities-2025-ksc",
+          title: '2025 KSC',
+          description: "Photos from 2025 KSC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2025-ksc/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
