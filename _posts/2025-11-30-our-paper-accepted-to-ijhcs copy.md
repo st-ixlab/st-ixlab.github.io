@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📄 Our paper **accepted** to IJHCS! (IF:4.7, 21.9%)"
+title: "📄 Our paper **accepted** to IJHCS! (IF:5.1, 8.3%)"
 date: 2025-11-30 00:00:00
-description: Our paper accepted to IJHCS! (IF:4.7, 21.9%)
+description: Our paper accepted to IJHCS! (IF:5.1, 8.3%)
 tags: news
 categories: news
 thumbnail: assets/img/news-2025-11-30-1.jpg
