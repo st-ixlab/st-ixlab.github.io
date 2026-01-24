@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-jiseop-and-byeonghwa-joined-the-lab",
+        },{id: "post-two-papers-accepted-to-acm-chi-2026",
+        
+          title: "📄 Two papers **accepted** to **ACM** **CHI** 2026!",
+        
+        description: "Two papers accepted to ACM CHI 2026!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/two-papers-accepted-to-acm-chi-2026/";
+          
+        },
+      },{id: "post-jiseop-and-byeonghwa-joined-the-lab",
         
           title: "🧑‍🎓 Jiseop and Byeonghwa joined the lab!",
         
@@ -69,11 +80,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/Jisep-Byeonghwa-joined-the-lab/";
           
         },
-      },{id: "post-our-paper-accepted-to-ijhcs-if-4-7-21-9",
+      },{id: "post-our-paper-accepted-to-ijhcs-if-5-1-8-3",
         
-          title: "📄 Our paper **accepted** to IJHCS! (IF:4.7, 21.9%)",
+          title: "📄 Our paper **accepted** to IJHCS! (IF:5.1, 8.3%)",
         
-        description: "Our paper accepted to IJHCS! (IF:4.7, 21.9%)",
+        description: "Our paper accepted to IJHCS! (IF:5.1, 8.3%)",
         section: "Posts",
         handler: () => {
           
