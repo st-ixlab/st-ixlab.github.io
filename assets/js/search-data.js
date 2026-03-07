@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-two-papers-accepted-to-acm-chi-2026",
+        },{id: "post-four-posters-accepted-to-acm-chi-2026",
+        
+          title: "📄 Four posters **accepted** to **ACM** **CHI** 2026!",
+        
+        description: "Four posters accepted to ACM CHI 2026!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/four-posters-accepted-to-acm-chi-2026/";
+          
+        },
+      },{id: "post-two-papers-accepted-to-acm-chi-2026",
         
           title: "📄 Two papers **accepted** to **ACM** **CHI** 2026!",
         
