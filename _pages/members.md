@@ -77,6 +77,9 @@ nav_order: 3
             {% if student.email %}
               <p class="member-contact">Email: <a href="mailto:{{ student.email }}">{{ student.email }}</a></p>
             {% endif %}
+            {% if student.note %}
+              <p class="member-note">{{ student.note }}</p>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -191,6 +194,9 @@ nav_order: 3
                     <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
                   {% endif %}
                 </div>
+              {% endif %}
+              {% if alum.note %}
+                <p class="member-note">{{ alum.note }}</p>
               {% endif %}
             </div>
           </div>

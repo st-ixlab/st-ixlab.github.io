@@ -23,27 +23,6 @@ graduate_students:
     research_area: "Human-Computer Interaction, User Behavior Modeling"
     email: "jaey.jeong@seoultech.ac.kr"
     start_date: ""
-  - name: Jiyeon Oh
-    image: members/jiyeon_oh.jpg
-    status: "Master Student"
-    department: "Department of Data Science"
-    research_area: "HCI x Generative AI"
-    email: "jiyeon.oh@seoultech.ac.kr"
-    start_date: ""
-  - name: Yewon Min
-    image: members/yewon_min.jpg
-    status: "Master Student"
-    department: "Department of Data Science"
-    research_area: "HCI x VR/MR Communication"
-    email: "yw.min@seoultech.ac.kr"
-    start_date: ""
-  - name: Dae Wook Kim
-    image: members/daewook_kim.jpg
-    status: "Master Student"
-    department: "Department of Data Science"
-    research_area: "HCI x Virtual Exhibition"
-    email: "ksnu3@seoultech.ac.kr"
-    start_date: ""
   - name: Yujin Jeong
     image: members/yujin_jeong.png
     status: "Master Student"
@@ -51,14 +30,16 @@ graduate_students:
     research_area: "Huamn-Physical Agent Interaction"
     email: "yujin0331@seoultech.ac.kr"
     start_date: ""
+  - name: Jiyeon Oh
+    image: members/jiyeon_oh.jpg
+    status: "Master Student"
+    department: "Department of Data Science"
+    research_area: "HCI x Generative AI"
+    email: "jiyeon.oh@seoultech.ac.kr"
+    start_date: ""
+    note: "In Absentia"
 
 undergraduate_students:
-  - name: Jiwon Lee
-    image: members/jiwon_lee.jpg
-    division: "Division of ITM"
-    research_area: "Human-Agent Iteraction"
-    email: ""
-    start_date: ""
   - name: Jiseop Lee
     image: members/jiseop_lee.jpg
     division: "Division of ITM"
@@ -110,6 +91,20 @@ alumni_graduates:
     research_area: "MR Visual Understanding"
     affiliation: "MiracleSoft (Research Engineer)"
     affiliation_logo: "members/miraclesoft.jpg"
+  - name: Yewon Min
+    image: members/yewon_min.jpg
+    degree: "M.S., 2026"
+    department: "Department of Data Science"
+    research_area: "HCI x VR/MR Communication"
+    affiliation: "ETRI (Research Engineer)"
+    affiliation_logo: "members/etri_logo.png"
+  - name: Dae Wook Kim
+    image: members/daewook_kim.jpg
+    degree: "M.S., 2026"
+    department: "Department of Data Science"
+    research_area: "HCI x Virtual Exhibition"
+    affiliation: ""
+    affiliation_logo: ""
 
 alumni_undergraduates:
   - name: Mihwan Yu
@@ -156,6 +151,9 @@ alumni_undergraduates:
     affiliation: ""
   - name: Hyeok Ju Ko
     division: "Division of IISE, Seoultech, 2025"
+    affiliation: ""
+  - name: Jiwon Lee
+    division: "Division of ITM, Seoultech, 2025"
     affiliation: ""
 
 kit_alumni_graduates:

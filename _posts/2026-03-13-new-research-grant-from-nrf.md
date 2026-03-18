@@ -1,0 +1,21 @@
+---
+layout: post
+title: "💰 New research **grant** from **NRF** (핵심-유형B)!"
+date: 2026-03-13 00:00:00
+description: New research grant from NRF (핵심-유형B)!
+tags: news
+categories: news
+thumbnail: assets/img/news-20230301-1.png
+---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news-20230301-1.png" class="rounded z-depth-1" %}
+    </div>
+</div>
+
+We received a new research grant (핵심-유형B) from National Research Foundation of Korea!
+
+Title: Everyday Object as an Agent: XR-based Interaction Framework for Tangible Agent Ecosystem
+
+Period: 26.03 ~ 31.02

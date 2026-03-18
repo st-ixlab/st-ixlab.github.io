@@ -19,27 +19,26 @@ nav_order: 5
 </div>
 
 <div class="project-item">
-  <div class="project-name-ko">데이터분석기반의 전자제조 전문인력양성사업</div>
-  <div class="project-meta">– 산업통상자원부, 2021.03.01 ~ 2025.02.28</div>
+  <div class="project-name-ko">Everyday Object as an Agent: Tangible 에이전트 생태계 구축을 위한 XR기반 상호작용 프레임워크</div>
+  <div class="project-name-en">Everyday Object as an Agent: XR-based Interaction Framework for Tangible Agent Ecosystem</div>
+  <div class="project-meta">– 과학기술정보통신부, 핵심연구(유형B), 2026.03.01 ~ 2031.02.28</div>
 </div>
 
 <div class="project-item">
-  <div class="project-name-ko">B2B 사업 환경 분석을 위한 머신러닝 기반의 정보 처리 분석 방법 및 시스템 개발</div>
-  <div class="project-meta">– LG전자, 2023.07.01 ~ 2024.06.30</div>
+  <div class="project-name-ko">사용자 주도형 Object Agent 저작 및 개인화 인터랙션 설계</div>
+  <div class="project-name-en">User-Driven Object Agent Authoring and Personalized Interaction Design</div>
+  <div class="project-meta">– 서울과학기술대학교, ST연구진흥-신진, 2026.03.01 ~ 2027.02.28</div>
 </div>
 
 <div class="project-item">
-  <div class="project-name-en">Development of Evaluation and Adaptive Interaction Framework for XR Usability in Autonomous Driving Environment</div>
-  <div class="project-name-ko">자율주행 환경에서의 XR 사용성 평가 및 적응형 인터랙션 프레임워크 개발</div>
-  <div class="project-meta">– Ministry of Science and ICT (과학기술정보통신부), 중견연구자지원사업, 2023.03 ~ 2026.02</div>
+  <div class="project-name-ko">Human-Physical AI 인터랙션 사용성 강화를 위한 사용자 모델링 및 성능 평가 프레임워크 개발</div>
+  <div class="project-name-en">Development of User Model and Performance Evaluation Framework for Human-Physical AI Interaction Usability Enhancement</div>
+  <div class="project-meta">– 서울과학기술대학교, ST글로벌랩투랩, 2026.03.01 ~ 2028.02.28</div>
 </div>
 
 <div class="project-item">
-  <div class="project-name-en">XR Multi-Modal Interaction</div>
-  <div class="project-name-ko">XR 멀티모달 인터랙션</div>
-  <div class="project-meta">– Seoul National University of Science and Technology (서울과학기술대학교), 신임교수정착과제, 2021.11.15 ~ 2024.11.14</div>
-</div>
-
+  <div class="project-name-ko">비전 AI 기반 폐기물 수거함 분석 모델 및 모니터링 시스템 개발</div>
+  <div class="project-meta">– (주)Reco, 산학협력과제, 2025.03.01 ~ 2026.08.31</div>
 </div>
 
 <hr class="project-hr">
@@ -47,6 +46,46 @@ nav_order: 5
 <div class="project-semester">
 
 <div class="project-section-title">Completed Projects</div>
+
+</div>
+
+<div class="project-semester">
+
+<div class="project-year-title">2026</div>
+
+<div class="project-item">
+  <div class="project-name-en">Development of Evaluation and Adaptive Interaction Framework for XR Usability in Autonomous Driving Environment</div>
+  <div class="project-name-ko">자율주행 환경에서의 XR 사용성 평가 및 적응형 인터랙션 프레임워크 개발</div>
+  <div class="project-meta">– Ministry of Science and ICT (과학기술정보통신부), 중견연구자지원사업, 2023.03 ~ 2026.02</div>
+</div>
+
+</div>
+
+<div class="project-semester">
+
+<div class="project-year-title">2025</div>
+
+<div class="project-item">
+  <div class="project-name-ko">데이터분석기반의 전자제조 전문인력양성사업</div>
+  <div class="project-meta">– 산업통상자원부, 2021.03.01 ~ 2025.02.28</div>
+</div>
+
+</div>
+
+<div class="project-semester">
+
+<div class="project-year-title">2024</div>
+
+<div class="project-item">
+  <div class="project-name-ko">B2B 사업 환경 분석을 위한 머신러닝 기반의 정보 처리 분석 방법 및 시스템 개발</div>
+  <div class="project-meta">– LG전자, 2023.07.01 ~ 2024.06.30</div>
+</div>
+
+<div class="project-item">
+  <div class="project-name-en">XR Multi-Modal Interaction</div>
+  <div class="project-name-ko">XR 멀티모달 인터랙션</div>
+  <div class="project-meta">– Seoul National University of Science and Technology (서울과학기술대학교), 신임교수정착과제, 2021.11.15 ~ 2024.11.14</div>
+</div>
 
 </div>
 
