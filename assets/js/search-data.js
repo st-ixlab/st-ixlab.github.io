@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-four-posters-accepted-to-acm-chi-2026",
+        },{id: "post-new-research-grant-from-nrf-핵심-유형b",
+        
+          title: "💰 New research **grant** from **NRF** (핵심-유형B)!",
+        
+        description: "New research grant from NRF (핵심-유형B)!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/new-research-grant-from-nrf/";
+          
+        },
+      },{id: "post-four-posters-accepted-to-acm-chi-2026",
         
           title: "📄 Four posters **accepted** to **ACM** **CHI** 2026!",
         
@@ -642,6 +653,16 @@ ninja.data = [{
           description: "Photos from 2025 KSC",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2025-ksc/";
+            },},{id: "activities-2026-hcik",
+          title: '2026 HCIK',
+          description: "Photos from 2026 HCIK",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-hcik/";
+            },},{id: "activities-2026-graduation",
+          title: '2026 Graduation',
+          description: "Photos from 2026 Graduation",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-graduation/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
