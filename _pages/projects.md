@@ -19,6 +19,11 @@ nav_order: 5
 </div>
 
 <div class="project-item">
+  <div class="project-name-ko"> (가칭) AX 전문인력 양성</div>
+  <div class="project-meta">– (정부부처), 2026.03.01 ~ 2031.02.28</div>
+</div>
+
+<div class="project-item">
   <div class="project-name-ko">Everyday Object as an Agent: Tangible 에이전트 생태계 구축을 위한 XR기반 상호작용 프레임워크</div>
   <div class="project-name-en">Everyday Object as an Agent: XR-based Interaction Framework for Tangible Agent Ecosystem</div>
   <div class="project-meta">– 과학기술정보통신부, 핵심연구(유형B), 2026.03.01 ~ 2031.02.28</div>
