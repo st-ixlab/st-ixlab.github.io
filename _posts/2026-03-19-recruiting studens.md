@@ -109,7 +109,7 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
 
 ### Application
 - Undergraduate transcript, Cover letter (1 page including motivation), CV (optional)
-- Application Form: [Link](https://forms.gle/s94576543210)
+- Application Form: [Link](https://forms.gle/xtSqAWevsTHp1peJ9)
 
 ### Contact
 - Email: jinw.jeong@seoultech.ac.kr (Jin-Woo Jeong, PI)
