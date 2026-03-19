@@ -3,7 +3,7 @@ layout: post
 title: "2026 Graduation"
 date: 2026-02-25
 description: "Photos from 2026 Graduation"
-img: /assets/img/activities/2026-graduation/20260303_090447289.jpg
+img: /assets/img/activities/2026-graduation/20260303_090447289_03.jpg
 importance: 1
 category: event
 images:
