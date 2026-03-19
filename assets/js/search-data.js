@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-new-research-grant-from-nrf-핵심-유형b",
+        },{id: "post-we-are-recruiting-undergraduate-students-for-2026-internship",
+        
+          title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Internship!",
+        
+        description: "We are recruiting undergraduate students for 2026 Internship!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/recruiting-studens/";
+          
+        },
+      },{id: "post-new-research-grant-from-nrf-핵심-유형b",
         
           title: "💰 New research **grant** from **NRF** (핵심-유형B)!",
         
