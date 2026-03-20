@@ -78,7 +78,6 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
 
 ### Qualifications
 
-- **Major**: Computer Science, Industrial Engineering, Data Science, or AI-related fields
 - **Attitude**: Self-motivated, sincere, and a proactive team player
 - **Commitment**: No planned long-term absences (e.g., exchange programs) during the internship
 - **Participation**: Active involvement in lab activities during weekdays (semester and vacation)
@@ -98,7 +97,7 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
 - **Stipend**
   - Master students: <span style="color: #007bff; font-weight: bold;">at least 2,000,000 KRW/month</span> + Tuition fee (미래인재장학금)
   - Ph.D students: <span style="color: #007bff; font-weight: bold;">at least 3,000,000 KRW/month</span> + Tuition fee (미래인재장학금)
-  - Undergraduate students: <span style="color: #007bff; font-weight: bold;">300,000 KRW/month (Semester), 700,000 KRW/month (Vacation), 1,000,000 KRW/month</span> + BEAR scholarship (for students committed to entering graduate school)
+  - Undergraduate students: <span style="color: #007bff; font-weight: bold;">300,000 KRW/month (Semester), 700,000 KRW/month (Vacation), 1,000,000 KRW/month + BEAR scholarship (for students committed to entering graduate school) </span>
 - **Equipments**: Personal office space and individual PC/dual monitors setup
 - Various research-purpose devices are provided (VR/MR HMDs, Eyetrackers, Sensors, Wearable devices, etc.)
 
