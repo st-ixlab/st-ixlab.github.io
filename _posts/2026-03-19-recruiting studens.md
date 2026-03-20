@@ -58,7 +58,7 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
   - Embodied Human-Agent Interaction
   - Enhancing UI/UX of Human-Agent Interaction for Web, Mobile, XR environments 
   - Multi-User Multi-Agent Interaction
-  - ... and your ideas!
+  - ... and **your ideas!**
 
 </div>
 
@@ -87,6 +87,8 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
 
 ### Requirements & Benefits  
 - **Research Growth**: Students will have deeper understanding of HCI and UI/UX fundamentals, VR/AR technologies, AI Agent ecosystem, Mobile/Web platforms, ML/DL applications, etc.
+- **Research Autonomy**: Although our lab shares a common research theme, students are encouraged to propose and lead their own research projects based on their unique interests within the HCI field.
+- **Individualized Mentorship**: Students will receive direct guidance from Professor Jin-Woo Jeong to help navigate academic growth and research direction.
 - **Work hours**
   - Master/Ph.D students: at least 40 hours/week
   - Undergraduate students: flexible (Semester), at least 35 hours/week (Vacation)
@@ -94,9 +96,9 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
   - Master/Ph.D students: at least 1 conference/year
   - Undergraduate students: if the authored paper is accepted
 - **Stipend**
-  - Master students: <span style="color: #007bff; font-weight: bold;">at least 2,000,000 KRW/month</span>
-  - Ph.D students: <span style="color: #007bff; font-weight: bold;">at least 3,000,000 KRW/month</span>
-  - Undergraduate students: <span style="color: #007bff; font-weight: bold;">300,000 KRW/month (Semester), 700,000 KRW/month (Vacation), 1,000,000 KRW/month (If admitted to graduate school)</span>
+  - Master students: <span style="color: #007bff; font-weight: bold;">at least 2,000,000 KRW/month</span> + Tuition fee (미래인재장학금)
+  - Ph.D students: <span style="color: #007bff; font-weight: bold;">at least 3,000,000 KRW/month</span> + Tuition fee (미래인재장학금)
+  - Undergraduate students: <span style="color: #007bff; font-weight: bold;">300,000 KRW/month (Semester), 700,000 KRW/month (Vacation), 1,000,000 KRW/month</span> + BEAR scholarship (for students committed to entering graduate school)
 - **Equipments**: Personal office space and individual PC/dual monitors setup
 - Various research-purpose devices are provided (VR/MR HMDs, Eyetrackers, Sensors, Wearable devices, etc.)
 
