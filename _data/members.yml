@@ -31,7 +31,7 @@ graduate_students:
     email: "yujin0331@seoultech.ac.kr"
     start_date: ""
   - name: Klaudia Kubale
-    image: members/klaudia.png
+    image: members/default_female.jpg
     status: "Visiting Student (Master)"
     department: "Department of Data Science"
     research_area: "Intelligent Systems"
@@ -60,7 +60,7 @@ undergraduate_students:
     email: "gomgom3008@gmail.com"
     start_date: ""
   - name: Yujin Cho
-    image: members/yujin_cho.png
+    image: members/yujin_cho.jpeg
     division: "Division of IISE"
     research_area: "TBD"
     email: "yujincho_0514@naver.com"
