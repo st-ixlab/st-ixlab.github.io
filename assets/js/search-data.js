@@ -685,6 +685,11 @@ ninja.data = [{
           description: "Photos from 2026 Graduation",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2026-graduation/";
+            },},{id: "activities-2026-chi",
+          title: '2026 CHI',
+          description: "Photos from 2026 CHI",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-chi/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
