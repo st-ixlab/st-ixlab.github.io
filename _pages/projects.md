@@ -19,8 +19,9 @@ nav_order: 5
 </div>
 
 <div class="project-item">
-  <div class="project-name-ko"> (가칭) AX 전문인력 양성</div>
-  <div class="project-meta">– (정부부처), 2026.03.01 ~ 2031.02.28</div>
+  <div class="project-name-ko">AX기반 제조공정 활용기술 전문인력양성 (온디바이스 AI 제조플랫폼)</div>
+  <div class="project-name-en">AX-Based Manufacturing Process Technology Development Program</div>
+  <div class="project-meta">– 산업통상자원부, 2026.03.01 ~ 2031.02.28</div>
 </div>
 
 <div class="project-item">

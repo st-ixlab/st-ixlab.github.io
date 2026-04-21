@@ -30,6 +30,13 @@ graduate_students:
     research_area: "Huamn-Physical Agent Interaction"
     email: "yujin0331@seoultech.ac.kr"
     start_date: ""
+  - name: Klaudia Kubale
+    image: members/klaudia.png
+    status: "Visiting Student (Master)"
+    department: "Department of Data Science"
+    research_area: "Intelligent Systems"
+    email: "Kubaleklaudia190902@gmail.com"
+    start_date: ""
   - name: Jiyeon Oh
     image: members/jiyeon_oh.jpg
     status: "Master Student"
@@ -48,9 +55,15 @@ undergraduate_students:
     start_date: ""
   - name: Byeonghwa Yu
     image: members/byeonghwa_yu.png
-    division: "Division of IISE"
+    division: "Division of ITM"
     research_area: "TBD"
     email: "gomgom3008@gmail.com"
+    start_date: ""
+  - name: Yujin Cho
+    image: members/yujin_cho.png
+    division: "Division of IISE"
+    research_area: "TBD"
+    email: "yujincho_0514@naver.com"
     start_date: ""
 
 researchers:
