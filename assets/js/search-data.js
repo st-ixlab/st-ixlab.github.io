@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-we-are-recruiting-undergraduate-students-for-2026-internship",
+        },{id: "post-yujin-and-klaudia-joined-the-lab",
+        
+          title: "🧑‍🎓 Yujin and Klaudia joined the lab!",
+        
+        description: "Yujin and Klaudia joined the lab!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Yujin-Klaudia-joined-the-lab/";
+          
+        },
+      },{id: "post-we-are-recruiting-undergraduate-students-for-2026-internship",
         
           title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Internship!",
         
