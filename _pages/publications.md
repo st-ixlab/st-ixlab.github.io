@@ -16,13 +16,13 @@ nav_order: 4
     {% include bib_search.liquid %}
     
     <div class="publications">
+      <!-- Regular Publications -->
+      <h2 class="bibliography">Publications</h2>
+      {% bibliography --query @*[note!=Under review] %}
+
       <!-- Under Review Section -->
       <h2 class="bibliography">Under Review</h2>
       {% bibliography --query @*[note~=Under review]* --group_by none %}
-
-      <!-- Regular Publications -->
-      <h2 class="bibliography">Publications</h2>
-      {% bibliography %}
     </div>
   </div>
 

@@ -15,6 +15,7 @@ nav_order: 5
 
 <div class="project-item">
   <div class="project-name-ko">데이터 사이언스와 비즈니스 포텐셜 교육연구단</div>
+  <div class="project-name-en">Data Science and Business Potential</div>
   <div class="project-meta">– 교육부, 4단계 BK21, 2020.09.01 ~ 2027.08.31</div>
 </div>
 

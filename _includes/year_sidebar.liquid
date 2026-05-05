@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const cutoffYear = 2020; // Years <= this will be grouped
     let hasOlder = false;
     let oldestYearId = null;
+    let hasUnderReview = false;
+    let underReviewId = null;
 
     // First scan to find years
     document.querySelectorAll('h2.bibliography').forEach(el => {
@@ -29,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     oldestYearId = 'year-' + text; // Point to the first (newest) of the old years
                 }
             }
+        } else if (text.toLowerCase() === 'under review') {
+            hasUnderReview = true;
+            if (!el.id) {
+                el.id = 'year-under-review';
+            }
+            underReviewId = el.id;
         }
     });
 
@@ -80,6 +88,35 @@ document.addEventListener("DOMContentLoaded", function() {
          a.addEventListener('click', function(e) {
             e.preventDefault();
             const target = document.getElementById(oldestYearId);
+            if (target) {
+                const headerOffset = 70;
+                const elementPosition = target.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+            }
+        });
+
+        li.appendChild(a);
+        list.appendChild(li);
+    }
+
+    // Create "Under Review" link
+    if (hasUnderReview && underReviewId) {
+        const li = document.createElement('li');
+        li.className = 'nav-item';
+        
+        const a = document.createElement('a');
+        a.className = 'nav-link';
+        a.href = '#' + underReviewId;
+        a.textContent = 'Under Review';
+        a.style.color = 'var(--global-text-color-light)';
+        
+        a.addEventListener('mouseenter', () => a.style.color = 'var(--global-theme-color)');
+        a.addEventListener('mouseleave', () => a.style.color = 'var(--global-text-color-light)');
+
+         a.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.getElementById(underReviewId);
             if (target) {
                 const headerOffset = 70;
                 const elementPosition = target.getBoundingClientRect().top;
