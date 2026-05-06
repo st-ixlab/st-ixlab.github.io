@@ -27,7 +27,7 @@ graduate_students:
     image: members/yujin_jeong.png
     status: "Master Student"
     department: "Department of Data Science"
-    research_area: "Huamn-Physical Agent Interaction"
+    research_area: "Human-Physical Agent Interaction"
     email: "yujin0331@seoultech.ac.kr"
     start_date: ""
   - name: Klaudia Kubale
@@ -35,7 +35,7 @@ graduate_students:
     status: "Visiting Student (Master)"
     department: "Department of Data Science"
     research_area: "Intelligent Systems"
-    email: "Kubaleklaudia190902@gmail.com"
+    email: "kubale.klaudia@proton.me"
     start_date: ""
   - name: Jiyeon Oh
     image: members/jiyeon_oh.jpg
