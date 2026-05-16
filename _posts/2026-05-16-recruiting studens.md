@@ -9,9 +9,14 @@ thumbnail: assets/img/recruit_img.png
 published: true
 ---
 
+### Application
+- Undergraduate transcript, Cover letter (1 page including motivation), CV (optional)
+- Application Form: Fill this google form! [Link](https://forms.gle/RZLBwrSWozF6rsA68)
+
 ### Lab Introduction
 
 SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction (HCI). Our mission is to contribute to top-tier international conferences and journals while shaping the future of how humans interact with technology.
+
 
 <div style="padding-left: 1.5rem;" markdown="1">
 
@@ -109,7 +114,7 @@ SEOULTECH **IXLAB** conducts cutting-edge research in Human-Computer Interaction
 
 ### Application
 - Undergraduate transcript, Cover letter (1 page including motivation), CV (optional)
-- Application Form: [Link](https://forms.gle/RZLBwrSWozF6rsA68)
+- Application Form: Fill this google form! [Link](https://forms.gle/RZLBwrSWozF6rsA68)
 
 ### Contact
 - Email: jinw.jeong@seoultech.ac.kr (Jin-Woo Jeong, PI)
