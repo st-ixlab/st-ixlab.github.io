@@ -88,7 +88,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/recruiting-studens/";
+            window.location.href = "/blog/2026/recruiting-studens-20261/";
           
         },
       },{id: "post-new-research-grant-from-nrf-핵심-유형b",
