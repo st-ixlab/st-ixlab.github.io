@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Internship! 2027 Master Program"
+title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Summer Internship!"
 date: 2026-05-16 00:00:00
-description: We are recruiting undergraduate students for 2026 Internship!
+description: We are recruiting undergraduate students for 2026 Summer Internship!
 tags: news
 categories: news
 thumbnail: assets/img/recruit_img.png
