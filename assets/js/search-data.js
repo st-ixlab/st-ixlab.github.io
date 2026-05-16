@@ -58,11 +58,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-we-are-recruiting-undergraduate-students-for-2026-internship-2027-master-program",
+        },{id: "post-we-are-recruiting-undergraduate-students-for-2026-summer-internship",
         
-          title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Internship! 2027 Master Program",
+          title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Summer Internship!",
         
-        description: "We are recruiting undergraduate students for 2026 Internship!",
+        description: "We are recruiting undergraduate students for 2026 Summer Internship!",
         section: "Posts",
         handler: () => {
           
