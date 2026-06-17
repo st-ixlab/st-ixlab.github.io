@@ -103,8 +103,14 @@ nav_order: 3
           {% endif %}
           <div class="member-info">
             <h4 class="member-name">{{ student.name }}</h4>
+            {% if student.status %}
+              <p class="member-status">{{ student.status }}</p>
+            {% endif %}
             {% if student.division %}
               <p class="member-detail">{{ student.division }}</p>
+            {% endif %}
+            {% if student.department %}
+              <p class="member-detail">{{ student.department }}</p>
             {% endif %}
             {% if student.research_area %}
               <p class="member-detail">Research Area: {{ student.research_area }}</p>
@@ -113,6 +119,7 @@ nav_order: 3
               <p class="member-contact">Email: <a href="mailto:{{ student.email }}">{{ student.email }}</a></p>
             {% endif %}
           </div>
+
         </div>
       {% endfor %}
     </div>

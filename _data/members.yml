@@ -65,6 +65,30 @@ undergraduate_students:
     research_area: "TBD"
     email: "yujincho_0514@naver.com"
     start_date: ""
+  - name: Somin Yu
+    image: members/somin_yu.jpeg
+    status: "Visiting Intern"
+    department: "Department of Software Engineering"
+    research_area: "TBD"
+    email: ""
+    start_date: ""
+  - name: Yujeong Lee
+    image: members/default_female.jpg
+    status: "Visiting Intern"
+    department: "Department of Computer Engineering"
+    research_area: "TBD"
+    email: ""
+    start_date: ""
+  - name: JiHye Ryu
+    image: members/default_female.jpg
+    status: "Visiting Intern"
+    department: "Department of Artificial Intelligence"
+    research_area: "TBD"
+    email: ""
+    start_date: ""
+
+
+
 
 researchers:
   - name: Shee-Ihn Kim
