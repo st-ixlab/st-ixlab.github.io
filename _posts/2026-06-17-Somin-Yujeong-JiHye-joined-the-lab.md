@@ -14,6 +14,6 @@ thumbnail: assets/img/welcome.svg
   </div>
 </div>
 
-Somin Yu, Yujeong Lee, and JiHye Ryu joined IXLAB as Visiting Undergraduate Interns.
+Somin Yu (Jeonbuk National University), Yujeong Lee (Hongik University), and JiHye Ryu (Joongbu University) joined IXLAB as Visiting Undergraduate Interns.
 
 Welcome!

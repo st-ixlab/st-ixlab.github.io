@@ -70,21 +70,21 @@ undergraduate_students:
     status: "Visiting Intern"
     department: "Department of Software Engineering"
     research_area: "TBD"
-    email: ""
+    email: "mon169@naver.com"
     start_date: ""
   - name: Yujeong Lee
-    image: members/default_female.jpg
+    image: members/yujeong.png
     status: "Visiting Intern"
     department: "Department of Computer Engineering"
     research_area: "TBD"
-    email: ""
+    email: "leeyou823@naver.com"
     start_date: ""
   - name: JiHye Ryu
     image: members/default_female.jpg
     status: "Visiting Intern"
     department: "Department of Artificial Intelligence"
     research_area: "TBD"
-    email: ""
+    email: "eoeksp04@naver.com"
     start_date: ""
 
 
