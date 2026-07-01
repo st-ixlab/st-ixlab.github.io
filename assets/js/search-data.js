@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-somin-yujeong-and-jihye-joined-the-lab",
+        },{id: "post-one-paper-accepted-to-ismar-2026",
+        
+          title: "📄 One paper **accepted** to **ISMAR** 2026!",
+        
+        description: "One paper accepted to ISMAR 2026!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/one-paper-accepted-to-ISMAR-2026/";
+          
+        },
+      },{id: "post-somin-yujeong-and-jihye-joined-the-lab",
         
           title: "🧑‍🎓 Somin, Yujeong, and JiHye joined the lab!",
         
@@ -712,6 +723,21 @@ ninja.data = [{
           description: "Photos from 2026 CHI",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2026-chi/";
+            },},{id: "activities-2026-home-coming",
+          title: '2026 Home Coming',
+          description: "Photos from 2026 Home Coming",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-home-coming/";
+            },},{id: "activities-2026-invited-talk",
+          title: '2026 Invited Talk',
+          description: "Photos from 2026 Invited Talk",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-invited-talk/";
+            },},{id: "activities-2026-kcc",
+          title: '2026 KCC',
+          description: "Photos from 2026 KCC",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-kcc/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
