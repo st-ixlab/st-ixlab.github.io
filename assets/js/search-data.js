@@ -102,6 +102,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/Yujin-Klaudia-joined-the-lab/";
           
         },
+      },{id: "post-️-jae-yeop-is-visiting-simon-fraser-university",
+        
+          title: "✈️ Jae-Yeop is visiting Simon Fraser University",
+        
+        description: "Jae-Yeop is visiting Simon Fraser University",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/jae-yeop-is-visiting-simon-fraser-university/";
+          
+        },
       },{id: "post-we-are-recruiting-undergraduate-students-for-2026-internship",
         
           title: "🧑‍🎓 We are **recruiting** undergraduate students for 2026 Internship!",
@@ -738,6 +749,11 @@ ninja.data = [{
           description: "Photos from 2026 KCC",
           section: "Activities",handler: () => {
               window.location.href = "/activities/2026-kcc/";
+            },},{id: "activities-2026-icml",
+          title: '2026 ICML',
+          description: "Photos from 2026 ICML",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/2026-icml/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
