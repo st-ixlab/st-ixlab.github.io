@@ -87,8 +87,8 @@ nav_order: 3
   {% endif %}
 
   <!-- Undergraduate Students Section -->
-  {% if site.data.members.undergraduate_students %}
-    <h2 class="members-section-title">Undergraduate Students</h2>
+  <h2 class="members-section-title">Undergraduate Students</h2>
+  {% if site.data.members.undergraduate_students and site.data.members.undergraduate_students.size > 0 %}
     <div class="members-grid">
       {% for student in site.data.members.undergraduate_students %}
         <div class="member-card">
@@ -119,7 +119,6 @@ nav_order: 3
               <p class="member-contact">Email: <a href="mailto:{{ student.email }}">{{ student.email }}</a></p>
             {% endif %}
           </div>
-
         </div>
       {% endfor %}
     </div>
@@ -164,10 +163,86 @@ nav_order: 3
   {% endif %}
 
   <!-- Alumni Section -->
-  {% if site.data.members.alumni_graduates or site.data.members.alumni_undergraduates %}
+  {% if site.data.members.alumni_doctoral or site.data.members.alumni_masters or site.data.members.alumni_graduates or site.data.members.alumni_undergraduates or site.data.members.alumni_visiting_researchers %}
     <h2 class="members-section-title">Alumni</h2>
     
-    {% if site.data.members.alumni_graduates %}
+    {% if site.data.members.alumni_doctoral and site.data.members.alumni_doctoral.size > 0 %}
+      <h3 class="members-subsection-title">Doctoral Degree</h3>
+      <div class="members-grid">
+        {% for alum in site.data.members.alumni_doctoral %}
+          <div class="member-card">
+            {% if alum.image %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/' | append: alum.image | relative_url }}" alt="{{ alum.name }}" class="img-fluid rounded" onerror="this.src='{{ '/assets/img/members/placeholder.png' | relative_url }}'">
+              </div>
+            {% else %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/members/placeholder.png' | relative_url }}" alt="{{ alum.name }}" class="img-fluid rounded">
+              </div>
+            {% endif %}
+            <div class="member-info">
+              <h4 class="member-name">{{ alum.name }}<br>{{ alum.degree }}</h4>
+              {% if alum.department %}
+                <p class="member-detail">{{ alum.department }}</p>
+              {% endif %}
+              {% if alum.research_area %}
+                <p class="member-detail">Research Area: {{ alum.research_area }}</p>
+              {% endif %}
+              {% if alum.affiliation and alum.affiliation != "" %}
+                <p class="member-affiliation"><strong>{{ alum.affiliation }}</strong></p>
+              {% endif %}
+              {% if alum.affiliation_logo and alum.affiliation_logo != "" %}
+                <div class="member-affiliation-logo">
+                  <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
+                </div>
+              {% endif %}
+              {% if alum.note %}
+                <p class="member-note">{{ alum.note }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if site.data.members.alumni_masters and site.data.members.alumni_masters.size > 0 %}
+      <h3 class="members-subsection-title">Master Degree</h3>
+      <div class="members-grid">
+        {% for alum in site.data.members.alumni_masters %}
+          <div class="member-card">
+            {% if alum.image %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/' | append: alum.image | relative_url }}" alt="{{ alum.name }}" class="img-fluid rounded" onerror="this.src='{{ '/assets/img/members/placeholder.png' | relative_url }}'">
+              </div>
+            {% else %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/members/placeholder.png' | relative_url }}" alt="{{ alum.name }}" class="img-fluid rounded">
+              </div>
+            {% endif %}
+            <div class="member-info">
+              <h4 class="member-name">{{ alum.name }}<br>{{ alum.degree }}</h4>
+              {% if alum.department %}
+                <p class="member-detail">{{ alum.department }}</p>
+              {% endif %}
+              {% if alum.research_area %}
+                <p class="member-detail">Research Area: {{ alum.research_area }}</p>
+              {% endif %}
+              {% if alum.affiliation and alum.affiliation != "" %}
+                <p class="member-affiliation"><strong>{{ alum.affiliation }}</strong></p>
+              {% endif %}
+              {% if alum.affiliation_logo and alum.affiliation_logo != "" %}
+                <div class="member-affiliation-logo">
+                  <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
+                </div>
+              {% endif %}
+              {% if alum.note %}
+                <p class="member-note">{{ alum.note }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% elsif site.data.members.alumni_graduates and site.data.members.alumni_graduates.size > 0 %}
       <h3 class="members-subsection-title">Graduates</h3>
       <div class="members-grid">
         {% for alum in site.data.members.alumni_graduates %}
@@ -189,17 +264,12 @@ nav_order: 3
               {% if alum.research_area %}
                 <p class="member-detail">Research Area: {{ alum.research_area }}</p>
               {% endif %}
-              {% if alum.affiliation %}
+              {% if alum.affiliation and alum.affiliation != "" %}
                 <p class="member-affiliation"><strong>{{ alum.affiliation }}</strong></p>
               {% endif %}
               {% if alum.affiliation_logo and alum.affiliation_logo != "" %}
                 <div class="member-affiliation-logo">
-                  {% assign file_ext = alum.affiliation_logo | split: '.' | last %}
-                  {% if file_ext == 'svg' %}
-                    <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
-                  {% else %}
-                    <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
-                  {% endif %}
+                  <img src="{{ '/assets/img/' | append: alum.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
                 </div>
               {% endif %}
               {% if alum.note %}
@@ -211,7 +281,7 @@ nav_order: 3
       </div>
     {% endif %}
 
-    {% if site.data.members.alumni_undergraduates %}
+    {% if site.data.members.alumni_undergraduates and site.data.members.alumni_undergraduates.size > 0 %}
       <h3 class="members-subsection-title">Undergraduates</h3>
       <div class="members-list">
         {% for alum in site.data.members.alumni_undergraduates %}
@@ -224,6 +294,45 @@ nav_order: 3
               {% assign current_position = alum.affiliation | remove_first: "Now @ " %}
               (Current Position: {{ current_position }})
             {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if site.data.members.alumni_visiting_researchers and site.data.members.alumni_visiting_researchers.size > 0 %}
+      <h3 class="members-subsection-title">Visiting Researchers</h3>
+      <div class="members-grid">
+        {% for researcher in site.data.members.alumni_visiting_researchers %}
+          <div class="member-card">
+            {% if researcher.image %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/' | append: researcher.image | relative_url }}" alt="{{ researcher.name }}" class="img-fluid rounded" onerror="this.src='{{ '/assets/img/members/placeholder.png' | relative_url }}'">
+              </div>
+            {% else %}
+              <div class="member-image">
+                <img src="{{ '/assets/img/members/placeholder.png' | relative_url }}" alt="{{ researcher.name }}" class="img-fluid rounded">
+              </div>
+            {% endif %}
+            <div class="member-info">
+              <h4 class="member-name">{{ researcher.name }}{% if researcher.status %}<br>{{ researcher.status }}{% elsif researcher.degree %}<br>{{ researcher.degree }}{% endif %}</h4>
+              {% if researcher.department %}
+                <p class="member-detail">{{ researcher.department }}</p>
+              {% endif %}
+              {% if researcher.research_area %}
+                <p class="member-detail">Research Area: {{ researcher.research_area }}</p>
+              {% endif %}
+              {% if researcher.affiliation and researcher.affiliation != "" %}
+                <p class="member-affiliation"><strong>{{ researcher.affiliation }}</strong></p>
+              {% endif %}
+              {% if researcher.affiliation_logo and researcher.affiliation_logo != "" %}
+                <div class="member-affiliation-logo">
+                  <img src="{{ '/assets/img/' | append: researcher.affiliation_logo | relative_url }}" alt="Affiliation logo" class="affiliation-logo-img">
+                </div>
+              {% endif %}
+              {% if researcher.note %}
+                <p class="member-note">{{ researcher.note }}</p>
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
       </div>

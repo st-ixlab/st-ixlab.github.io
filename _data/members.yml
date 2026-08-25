@@ -16,26 +16,12 @@ professor:
       - "Research Intern, Microsoft Research Asia (2011-2012)"
 
 graduate_students:
-  - name: Jae-Yeop Jeong
-    image: members/jjy.jpg
-    status: "Integrated Ph.D Student"
-    department: "Department of Data Science"
-    research_area: "Human-Computer Interaction, User Behavior Modeling"
-    email: "jaey.jeong@seoultech.ac.kr"
-    start_date: ""
   - name: Yujin Jeong
     image: members/yujin_jeong.png
     status: "Master Student"
     department: "Department of Data Science"
     research_area: "Human-Physical Agent Interaction"
     email: "yujin0331@seoultech.ac.kr"
-    start_date: ""
-  - name: Klaudia Kubale
-    image: members/klaudia.jpg
-    status: "Visiting Student (Master)"
-    department: "Department of Data Science"
-    research_area: "Intelligent Systems"
-    email: "kubale.klaudia@proton.me"
     start_date: ""
   - name: Jiyeon Oh
     image: members/jiyeon_oh.jpg
@@ -46,49 +32,7 @@ graduate_students:
     start_date: ""
     note: "In Absentia"
 
-undergraduate_students:
-  - name: Jiseop Lee
-    image: members/jiseop_lee.jpg
-    division: "Division of ITM"
-    research_area: "TBD"
-    email: "leejiseop@seoultech.ac.kr "
-    start_date: ""
-  - name: Byeonghwa Yu
-    image: members/byeonghwa_yu.png
-    division: "Division of ITM"
-    research_area: "TBD"
-    email: "gomgom3008@gmail.com"
-    start_date: ""
-  - name: Yujin Cho
-    image: members/yujin_cho.jpeg
-    division: "Division of IISE"
-    research_area: "TBD"
-    email: "yujincho_0514@naver.com"
-    start_date: ""
-  - name: Somin Yu
-    image: members/somin_yu.jpeg
-    status: "Visiting Intern"
-    department: "Department of Software Engineering"
-    research_area: "TBD"
-    email: "mon169@naver.com"
-    start_date: ""
-  - name: Yujeong Lee
-    image: members/yujeong.png
-    status: "Visiting Intern"
-    department: "Department of Computer Engineering"
-    research_area: "TBD"
-    email: "leeyou823@naver.com"
-    start_date: ""
-  - name: JiHye Ryu
-    image: members/Jihye_ryu.jpg
-    status: "Visiting Intern"
-    department: "Department of Artificial Intelligence"
-    research_area: "TBD"
-    email: "eoeksp04@naver.com"
-    start_date: ""
-
-
-
+undergraduate_students: []
 
 researchers:
   - name: Shee-Ihn Kim
@@ -99,7 +43,16 @@ researchers:
     email: "sikim@seoultech.ac.kr"
     note: "Leave of Absence"
 
-alumni_graduates:
+alumni_doctoral:
+  - name: Jae-Yeop Jeong
+    image: members/jjy.jpg
+    degree: "Ph.D., 2026"
+    department: "Department of Data Science"
+    research_area: "Human-Computer Interaction, User Behavior Modeling"
+    affiliation: ""
+    affiliation_logo: ""
+
+alumni_masters:
   - name: Ha-Yeong Yoon
     image: members/hayeong_yoon.jpg
     degree: "M.S., 2023"
@@ -192,6 +145,33 @@ alumni_undergraduates:
   - name: Jiwon Lee
     division: "Division of ITM, Seoultech, 2025"
     affiliation: ""
+  - name: Jiseop Lee
+    division: "Division of ITM, Seoultech, 2026"
+    affiliation: ""
+  - name: Byeonghwa Yu
+    division: "Division of ITM, Seoultech, 2026"
+    affiliation: ""
+  - name: Yujin Cho
+    division: "Division of IISE, Seoultech, 2026"
+    affiliation: ""
+  - name: Somin Yu
+    division: "Department of Software Engineering, Jeonbuk National University, 2026"
+    affiliation: ""
+  - name: Yujeong Lee
+    division: "Department of Computer Engineering, Hongik University, 2026"
+    affiliation: ""
+  - name: JiHye Ryu
+    division: "Department of Artificial Intelligence, Joongbu University, 2026"
+    affiliation: ""
+
+alumni_visiting_researchers:
+  - name: Klaudia Kubale
+    image: members/klaudia.jpg
+    status: "Visiting Student"
+    department: "Department of Data Science"
+    research_area: "Intelligent Systems"
+    affiliation: "University of Tours"
+    affiliation_logo: ""
 
 kit_alumni_graduates:
   - name: Kwon-Woo Ha
