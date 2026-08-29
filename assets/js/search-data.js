@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-one-paper-accepted-to-ismar-2026",
+        },{id: "post-one-paper-accepted-to-vrst-2026",
+        
+          title: "📄 One paper **accepted** to **VRST** 2026!",
+        
+        description: "One paper accepted to VRST 2026!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/one-paper-accepted-to-vrst-2026/";
+          
+        },
+      },{id: "post-one-paper-accepted-to-ismar-2026",
         
           title: "📄 One paper **accepted** to **ISMAR** 2026!",
         
