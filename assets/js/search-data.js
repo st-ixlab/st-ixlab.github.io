@@ -66,7 +66,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/recruiting-studens/";
+            window.location.href = "/blog/2026/recruiting-grad-candidaets/";
           
         },
       },{id: "post-one-paper-accepted-to-vrst-2026",
