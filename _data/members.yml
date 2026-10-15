@@ -33,12 +33,15 @@ graduate_students:
     note: "In Absentia"
 
 undergraduate_students:
-  - name: Researcher
-    image: members/default_male.jpg
-    status: "Undergraduate Student"
+  - name: Chan Haeng Lee
+    image: members/default_male.jpg    
     division: "Division of ITM"
+    research_area: "Human-Computer Interaction"    
+  - name: Honggyeong Kim
+    image: members/default_male.jpg  
+    division: "Department of Data Science"      
     research_area: "Human-Computer Interaction"
-    email: ""
+    
 
 researchers:
   - name: Shee-Ihn Kim
@@ -50,16 +53,10 @@ researchers:
     note: "Leave of Absence"
   - name: Elizaveta Lukianova
     image: members/elizaveta.jpg
-    status: "Researcher"
+    status: "MS Researcher"
     department: "Department of Data Science"
-    research_area: "MR Visual Understanding"
-    email: ""
-  - name: Researcher
-    image: members/default_male.jpg
-    status: "Researcher"
-    department: "Department of Data Science"
-    research_area: "Human-Computer Interaction"
-    email: ""
+    research_area: "MR Visual Understanding"    
+
 
 alumni_doctoral:
   - name: Jae-Yeop Jeong
