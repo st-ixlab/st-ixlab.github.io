@@ -32,7 +32,13 @@ graduate_students:
     start_date: ""
     note: "In Absentia"
 
-undergraduate_students: []
+undergraduate_students:
+  - name: Researcher
+    image: members/default_male.jpg
+    status: "Undergraduate Student"
+    division: "Division of ITM"
+    research_area: "Human-Computer Interaction"
+    email: ""
 
 researchers:
   - name: Shee-Ihn Kim
@@ -42,6 +48,18 @@ researchers:
     research_area: "Character Computing, Affective Computing"
     email: "sikim@seoultech.ac.kr"
     note: "Leave of Absence"
+  - name: Elizaveta Lukianova
+    image: members/elizaveta.jpg
+    status: "Researcher"
+    department: "Department of Data Science"
+    research_area: "MR Visual Understanding"
+    email: ""
+  - name: Researcher
+    image: members/default_male.jpg
+    status: "Researcher"
+    department: "Department of Data Science"
+    research_area: "Human-Computer Interaction"
+    email: ""
 
 alumni_doctoral:
   - name: Jae-Yeop Jeong
@@ -79,8 +97,8 @@ alumni_masters:
     degree: "M.S., 2025"
     department: "Department of Data Science"
     research_area: "MR Visual Understanding"
-    affiliation: "MiracleSoft (Research Engineer)"
-    affiliation_logo: "members/miraclesoft.jpg"
+    affiliation: "SEOULTECH Research Institute of Data Science"
+    affiliation_logo: "seoultech.webp"
   - name: Yewon Min
     image: members/yewon_min.jpg
     degree: "M.S., 2026"
