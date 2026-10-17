@@ -1,6 +1,15 @@
 ---
 ---
-<div class="row">
+{% assign proceedings = 'inproceedings,incollection,conference' | split: ',' %}
+{% assign entry_type_lower = entry.type | downcase %}
+{% if entry_type_lower == 'article' %}
+  {% assign pub_category = 'journal' %}
+{% elsif proceedings contains entry_type_lower %}
+  {% assign pub_category = 'conference' %}
+{% else %}
+  {% assign pub_category = 'other' %}
+{% endif %}
+<div class="row" data-pub-type="{{ pub_category }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-3 abbr">
       {%- if entry.abbr -%}

@@ -124,10 +124,6 @@ pagination:
     {% else %}
       {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
-
     <li>
 
 {% if post.thumbnail %}
@@ -155,39 +151,21 @@ pagination:
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
       </p>
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | relative_url }}">
-          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
-              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-              {% unless forloop.last %}
-                &nbsp;
-              {% endunless %}
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
-              {% unless forloop.last %}
-                &nbsp;
-              {% endunless %}
-              {% endfor %}
-          {% endif %}
-    </p>
 
 {% if post.thumbnail %}
 
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+    {% if post.redirect == blank %}
+      <a href="{{ post.url | relative_url }}">
+    {% elsif post.redirect contains '://' %}
+      <a href="{{ post.redirect }}" target="_blank">
+    {% else %}
+      <a href="{{ post.redirect | relative_url }}">
+    {% endif %}
+      <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="width: 100%; height: auto; object-fit: contain;" alt="image">
+    </a>
   </div>
 </div>
 {% endif %}

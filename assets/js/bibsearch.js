@@ -1,33 +1,59 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-  // actual bibsearch logic
+  let currentTypeFilter = "all";
+
+  // Cache data-pub-type on parent <li> elements
+  document.querySelectorAll(".bibliography > li").forEach((li) => {
+    const row = li.querySelector("[data-pub-type]");
+    if (row) {
+      li.setAttribute("data-pub-type", row.getAttribute("data-pub-type"));
+    }
+  });
+
+  // actual bibsearch & type filtering logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
-    // highlight-search-term
-    if (CSS.highlights) {
-      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-      if (nonMatchingElements == null) {
-        return;
+    // 1. Text search filtering
+    if (searchTerm && searchTerm.trim() !== "") {
+      if (CSS.highlights) {
+        const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
+        if (nonMatchingElements != null) {
+          nonMatchingElements.forEach((element) => {
+            element.classList.add("unloaded");
+          });
+        }
+      } else {
+        // Fallback for browsers without CSS highlights
+        document.querySelectorAll(".bibliography > li").forEach((element) => {
+          const text = element.innerText.toLowerCase();
+          if (text.indexOf(searchTerm) === -1) {
+            element.classList.add("unloaded");
+          }
+        });
       }
-      nonMatchingElements.forEach((element) => {
-        element.classList.add("unloaded");
-      });
     } else {
-      // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
-      document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-        const text = element.innerText.toLowerCase();
-        if (text.indexOf(searchTerm) == -1) {
+      if (CSS.highlights) {
+        CSS.highlights.delete("search");
+      }
+    }
+
+    // 2. Publication type filtering (journal / conference)
+    if (currentTypeFilter !== "all") {
+      document.querySelectorAll(".bibliography > li").forEach((element) => {
+        const pubType = element.getAttribute("data-pub-type");
+        if (pubType !== currentTypeFilter) {
           element.classList.add("unloaded");
         }
       });
     }
 
+    // 3. Update year headings visibility
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
       let iterator = element.nextElementSibling; // get next sibling element after h2, which can be h3 or ol
       let hideFirstGroupingElement = true;
-      // iterate until next group element (h2), which is already selected by the querySelectorAll(-).forEach(-)
+      // iterate until next group element (h2)
       while (iterator && iterator.tagName !== "H2") {
         if (iterator.tagName === "OL") {
           const ol = iterator;
@@ -35,36 +61,71 @@ document.addEventListener("DOMContentLoaded", function () {
           const totalSiblings = ol.querySelectorAll(":scope > li");
 
           if (unloadedSiblings.length === totalSiblings.length) {
-            ol.previousElementSibling.classList.add("unloaded"); // Add the '.unloaded' class to the previous grouping element (e.g. year)
-            ol.classList.add("unloaded"); // Add the '.unloaded' class to the OL itself
+            ol.previousElementSibling.classList.add("unloaded"); // Add '.unloaded' to previous element
+            ol.classList.add("unloaded"); // Add '.unloaded' to OL itself
           } else {
-            hideFirstGroupingElement = false; // there is at least some visible entry, don't hide the first grouping element
+            hideFirstGroupingElement = false;
           }
         }
         iterator = iterator.nextElementSibling;
       }
-      // Add unloaded class to first grouping element (e.g. year) if no item left in this group
+      // Add unloaded class to first grouping element if no item left
       if (hideFirstGroupingElement) {
         element.classList.add("unloaded");
       }
     });
+
+    // 4. Update year sidebar navigation links
+    document.querySelectorAll("#year-sidebar-list li").forEach(function (li) {
+      const link = li.querySelector("a");
+      const targetId = link ? link.getAttribute("href")?.substring(1) : null;
+      if (targetId) {
+        const target = document.getElementById(targetId);
+        if (target && target.classList.contains("unloaded")) {
+          li.classList.add("unloaded");
+        } else {
+          li.classList.remove("unloaded");
+        }
+      }
+    });
   };
 
-  const updateInputField = () => {
-    const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("bibsearch").value = hashValue;
-    filterItems(hashValue);
-  };
-
-  // Sensitive search. Only start searching if there's been no input for 300 ms
-  let timeoutId;
-  document.getElementById("bibsearch").addEventListener("input", function () {
-    clearTimeout(timeoutId); // Clear the previous timeout
-    const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+  // Button filter click listeners
+  document.querySelectorAll(".pub-filter-group button").forEach((button) => {
+    button.addEventListener("click", function () {
+      document.querySelectorAll(".pub-filter-group button").forEach((btn) => btn.classList.remove("active"));
+      this.classList.add("active");
+      currentTypeFilter = this.getAttribute("data-filter") || "all";
+      const searchInput = document.getElementById("bibsearch");
+      const searchTerm = searchInput ? searchInput.value.toLowerCase() : "";
+      filterItems(searchTerm);
+    });
   });
 
-  window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
+  const updateInputField = () => {
+    const hashValue = decodeURIComponent(window.location.hash.substring(1));
+    const searchInput = document.getElementById("bibsearch");
+    if (searchInput) {
+      if (window.location.hash && !hashValue.startsWith("year-")) {
+        searchInput.value = hashValue;
+        filterItems(hashValue.toLowerCase());
+      } else {
+        filterItems(searchInput.value ? searchInput.value.toLowerCase() : "");
+      }
+    }
+  };
 
-  updateInputField(); // Update filter when page loads
+  // Debounced search input
+  let timeoutId;
+  const searchInput = document.getElementById("bibsearch");
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      clearTimeout(timeoutId);
+      const searchTerm = this.value.toLowerCase();
+      timeoutId = setTimeout(() => filterItems(searchTerm), 300);
+    });
+  }
+
+  window.addEventListener("hashchange", updateInputField);
+  updateInputField();
 });
