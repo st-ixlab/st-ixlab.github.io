@@ -31,6 +31,18 @@ graduate_students:
     email: "jiyeon.oh@seoultech.ac.kr"
     start_date: ""
     note: "In Absentia"
+  - name: Incoming (2027.3)
+    image: members/placeholder.png
+    status: "Ph.D Student"
+    department: "Department of Data Science"
+  - name: Incoming (2027.3)
+    image: members/placeholder.png
+    status: "Master Student"
+    department: "Department of Data Science"
+  - name: Incoming (2027.3)
+    image: members/placeholder.png
+    status: "Master Student"
+    department: "Department of Data Science"
 
 undergraduate_students:
   - name: Chan Haeng Lee
@@ -41,6 +53,15 @@ undergraduate_students:
     image: members/default_male.jpg  
     division: "Department of Data Science"      
     research_area: "Human-Computer Interaction"
+  - name: Incoming (2026.12)
+    image: members/placeholder.png
+    status: "Undergraduate Student"
+  - name: Incoming (2026.12)
+    image: members/placeholder.png
+    status: "Undergraduate Student"
+  - name: Incoming (2026.12)
+    image: members/placeholder.png
+    status: "Undergraduate Student"
     
 
 researchers:
@@ -108,8 +129,8 @@ alumni_masters:
     degree: "M.S., 2026"
     department: "Department of Data Science"
     research_area: "HCI x Virtual Exhibition"
-    affiliation: ""
-    affiliation_logo: ""
+    affiliation: "ORIXON (Research Engineer)"
+    affiliation_logo: "members/orixon.png"
 
 alumni_undergraduates:
   - name: Mihwan Yu
