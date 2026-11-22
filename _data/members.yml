@@ -162,7 +162,7 @@ alumni_undergraduates:
     affiliation: "Now @ Korea University as Ph.D Student"
   - name: Sehee Han
     division: "Division of IISE, Seoultech, 2024"
-    affiliation: ""
+    affiliation: "Now @ Sungkyunkwan University as Master Student"
   - name: Jiyeon Hwang
     division: "Division of IISE, Seoultech, 2024"
     affiliation: ""
@@ -171,7 +171,7 @@ alumni_undergraduates:
     affiliation: ""
   - name: Sohyun Jang
     division: "Division of IISE, Seoultech, 2024"
-    affiliation: ""
+    affiliation: "Now @ Gwangju Institute of Science and Technology (GIST) as Master Student"
   - name: Euna Byun
     division: "Division of ITM, Seoultech, 2025"
     affiliation: ""
@@ -190,7 +190,7 @@ alumni_undergraduates:
   - name: Yujin Cho
     division: "Division of IISE, Seoultech, 2026"
     affiliation: ""
-  - name: Somin Yu
+  - name: Somin Yoo
     division: "Department of Software Engineering, Jeonbuk National University, 2026"
     affiliation: ""
   - name: Yujeong Lee
